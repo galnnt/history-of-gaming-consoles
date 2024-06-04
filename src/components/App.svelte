@@ -19,6 +19,7 @@
   import SeventhGen from "./Components/7th_gen.svelte"
   import EighthGen from "./Components/8th_gen.svelte"
   import NinthGen from "./Components/9th_gen.svelte"
+  import Final_chart from "./Components/final_chart.svelte"
 </script>
 
 
@@ -61,6 +62,8 @@ I have checked the code basically each subcode in components conmtrols one part.
 <!-- <ScrollonLeftSide /> 
 <Scrollonright /> <I made this copy, we can use more here and there. -->
 <!-- <LineChart /> --> 
+<Final_chart />
+
 <!-- <Conclusion /> -->
 
 <References />
