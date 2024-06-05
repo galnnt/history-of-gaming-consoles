@@ -139,9 +139,9 @@
   }
 </script>
 
-<h2 class="body-header">3rd Generation: The Advancement of the Console Era</h2>
+<h2 class="body-header">8th Generation: The Advancement of the Console Era</h2>
 <p class="body-text">
-  This is the third generation of gaming consoles.
+  This is the eighth generation of gaming consoles.
 </p>
 <section>
   <!-- Scroll container -->

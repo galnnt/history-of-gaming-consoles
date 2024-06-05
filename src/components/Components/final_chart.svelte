@@ -104,47 +104,49 @@
   };
 
   const updateChart = () => {
-    const svg = select("#pie-chart");
+    if (typeof document !== 'undefined') {
+      const svg = select("#pie-chart");
 
-    // Remove previous chart elements
-    svg.selectAll("*").remove();
+      // Remove previous chart elements
+      svg.selectAll("*").remove();
 
-    const chartGroup = svg
-      .attr("width", width)
-      .attr("height", height)
-      .append("g")
-      .attr("transform", `translate(${width / 2}, ${height / 2})`);
+      const chartGroup = svg
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
+        .attr("transform", `translate(${width / 2}, ${height / 2})`);
+      
+      const totalSales = data.reduce((sum, d) => sum + d.value, 0);
 
-    const totalSales = data.reduce((sum, d) => sum + d.value, 0);
-
-    const paths = chartGroup
-      .selectAll("path")
-      .data(pieGenerator(data))
-      .enter()
-      .append("path")
-      .attr("d", arcGenerator)
-      .attr("fill", d => color(d.data.company))
-      .on("mouseover", (event, d) => {
-        const tooltip = select("#tooltip");
-        tooltip.html(`${d.data.company}<br>Console: ${d.data.console}<br>Sales: ${d.data.value}M`)
-          .style("left", `${event.pageX + 10}px`)
-          .style("top", `${event.pageY + 10}px`)
-          .style("opacity", 1);
-      })
-      .on("mouseout", () => {
-        select("#tooltip").style("opacity", 0);
-      });
-
-    chartGroup
-      .selectAll("text")
-      .data(pieGenerator(data))
-      .enter()
-      .append("text")
-      .attr("transform", d => `translate(${arcGenerator.centroid(d)})`)
-      .attr("dy", "0.35em")
-      .style("text-anchor", "middle")
-      .style("fill", "white")
-      .text(d => (d.data.value / totalSales >= 1 / 8) ? d.data.company : "");
+      const paths = chartGroup
+        .selectAll("path")
+        .data(pieGenerator(data))
+        .enter()
+        .append("path")
+        .attr("d", arcGenerator)
+        .attr("fill", d => color(d.data.company))
+        .on("mouseover", (event, d) => {
+          const tooltip = select("#tooltip");
+          tooltip.html(`${d.data.company}<br>Console: ${d.data.console}<br>Sales: ${d.data.value}M`)
+            .style("left", `${event.pageX + 10}px`)
+            .style("top", `${event.pageY + 10}px`)
+            .style("opacity", 1);
+        })
+        .on("mouseout", () => {
+          select("#tooltip").style("opacity", 0);
+        });
+      
+      chartGroup
+        .selectAll("text")
+        .data(pieGenerator(data))
+        .enter()
+        .append("text")
+        .attr("transform", d => `translate(${arcGenerator.centroid(d)})`)
+        .attr("dy", "0.35em")
+        .style("text-anchor", "middle")
+        .style("fill", "white")
+        .text(d => (d.data.value / totalSales >= 1 / 8) ? d.data.company : "");
+    }
   };
 
   onMount(() => {
