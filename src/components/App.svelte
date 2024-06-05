@@ -61,7 +61,7 @@ I have checked the code basically each subcode in components conmtrols one part.
 <NinthGen />
 
 <!-- Test -->
-<Nintendo />
+<!--Nintendo /-->
 
 <!-- <ScrollonLeftSide /> 
 <Scrollonright /> <I made this copy, we can use more here and there. -->
