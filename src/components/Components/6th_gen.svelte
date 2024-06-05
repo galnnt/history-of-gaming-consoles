@@ -37,14 +37,27 @@
          </li>
        </ul>
       </p>`,
-    `<h1 class='step-title'>Sega Genesis/Mega Drive</h1>
+    `<h1 class='step-title'> Sega Genesis/Mega Drive </h1>
       <p>
+        The Sega Genesis/Mega Drive as developed by Sega, and released in 1988 
+        to 1989. It had a library of more than 900 games based on its ROM 
+        cartridges. However, in Japan, it had poor market performance compared 
+        with its competitors, Super Favicom.
       </p>`,
     `<h1 class='step-title'>SNES/Super Famicom</h1>
       <p>
+        The SNES was developed by Nintendo and was released across 1990-1992. 
+        This console introduced advanced graphics and sound capabilities 
+        compared with other gaming consoles released at the same time period. 
+        It was the best selling console of the 16-bit era.
       </p>`,
     `<h1 class='step-title'>Atari Lynx</h1>
       <p>
+        The Atari Lynx was developed by Atari and was released from 1989-1990. 
+        It featured the ability to be daisy-chained for up to 
+        8 players at once for unique multiplayer experiences. While Nintendo 
+        was clearly the most popular at the time, it still left a mark among 
+        the gamers at the time.
       </p>`,
     `<h1 class='step-title'>PC Engine/TurboGrafx-16</h1>
       <p>

@@ -30,23 +30,41 @@
       </p>`,
     `<h1 class='step-title'> Nintendo DS </h1>
       <p>
-        text
+        Nintendo DS is a foldable game console developed by Nintendo, released 
+        across 2004 and 2005. It introduced a brand new feature at the time: 
+        including two LCD screens working in tandem 
       </p>`,
     `<h1 class='step-title'> Nintendo 3DS </h1>
       <p>
-        text
+        Following the release of Nintendo DS, the 3DS was released on February 
+        26, 2011. However, its initial sells were not the best, leading to 
+        Nintendo drastically lowering the price of the product. It featured a 
+        second analog stick called the C-stick, additional buttons, and an 
+        improved camera.
       </p>`,
     `<h1 class='step-title'> Xbox 360 </h1>
       <p>
-        text
+        Xbox 360 was developed bu Microsoft and released on May 12th, 2005. It 
+        turned Xbox into a hub for many different activities: Playing games, 
+        purchase misuc, and even watching films, all through the Xbox portal. 
+        Additionally, it had the Kinect motion sensing camera, which was used 
+        in many of its games.
       </p>`,
       `<h1 class='step-title'> Playstation 3 </h1>
       <p>
-        text
+        PlayStation 3 was developed by Sony Computer Entertainment and was 
+        released on  Noverber 11, 2006. This console had a slow start in the 
+        market, but the reception improved over time. It was most popular for 
+        its Blu-ray capabilities, and wsa lighter and thinner than the previous 
+        version of PlayStation.
       </p>`,
       `<h1 class='step-title'> Wii </h1>
       <p>
-        text
+        Wii was developed by Nintendo, and was released in December 2006. The 
+        primary controller was the Wii Remore, and it was the first Nintendo 
+        console to directly support internet activiry, supporting vast amounts 
+        of online games. One game that was a killer was Wii Sports, the game 
+        which included all types of sports that players can experience at home.
       </p>`
   ];
 
