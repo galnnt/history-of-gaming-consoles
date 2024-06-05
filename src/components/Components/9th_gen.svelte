@@ -7,17 +7,24 @@
 
   // Paragraph text for scrolly
   $: steps = [
-    `<h1 class='step-title'>Ninth Generation: Post-Pandemic</h1>
+    `<h1 class='step-title'> Ninth Generation: Post-Pandemic </h1>
       <p>
-       Newest additions during the pandemic. Includes
+       Newest additions during the pandemic. These console have 4K resolution, 
+       and sometimes even 8K, with real-time tracing graphics. Consoles Include: 
        <ul>
-         <li class="tooltip" data-title="Playstation 5" data-img="/images/console_9_1.jpeg">
-           Playstation 5
+         <li class="tooltip" data-title="Xbox Series X/S" data-img="/images/gen9/xboxxs.jpeg">
+          Xbox Series X/S
          </li>
-         <li class="tooltip" data-title="Xbox Series X/S" data-img="/images/console_9_2.jpeg">
-           Xbox Series X/S
+         <li class="tooltip" data-title="Playstation 5" data-img="/images/gen9/ps5.jpeg">
+          Playstation 5
          </li>
        </ul>
+      </p>`,
+    `<h1 class='step-title'> Xbox Series X/S </h1>
+      <p>
+        The Xbox Series X/S was the fourth generation in the Xbox series, and 
+        was released on November 10th, 2020. The X/S series have more hardware 
+        improvements and is more emphasized on cross-generation releases.
       </p>`,
     `<h1 class='step-title'> Playstation 5 </h1>
       <p>
@@ -25,12 +32,6 @@
         November 12th, 2020. It had the DualSense controlled with backwards 
         compatibility with PS4 and integration with games that could be played 
         via virtual reality.
-      </p>`,
-    `<h1 class='step-title'> Xbox Series X/S </h1>
-      <p>
-        The Xbox Series X/S/ was the fourth generation in the Xbox series, and 
-        was released on November 10th, 2020. The X/S series have more hardware 
-        improvements and is more emphasized on cross-generation releases.
       </p>`
   ];
 
@@ -40,24 +41,24 @@
       console: null,
       games: null,
       consoles: [
-        "images/console_9_1.jpeg",
-        "images/console_9_2.jpeg"
+        "images/gen9/xboxxs.jpeg",
+        "images/gen9/ps5.jpeg"
       ]
     },
     {
-      console: "images/console_9_1.jpeg",
+      console: "images/gen9/ps5.jpeg",
       games: [
-        "images/console_9_1_game_1.jpeg",
-        "images/console_9_1_game_2.jpeg",
-        "images/console_9_1_game_3.jpeg"
+        "images/gen9/xboxxs_game1.jpeg",
+        "images/gen9/xboxxs_game2.jpeg",
+        "images/gen9/xboxxs_game3.jpeg"
       ]
     },
     {
-      console: "images/console_9_2.jpeg",
+      console: "images/gen9/xboxxs.jpeg",
       games: [
-        "images/console_9_2_game_1.jpeg",
-        "images/console_9_2_game_2.jpeg",
-        "images/console_9_2_game_3.jpeg"
+        "images/gen9/ps5_game1.jpeg",
+        "images/gen9/ps5_game2.jpeg",
+        "images/gen9/ps5_game3.jpeg"
       ]
     },
   ];

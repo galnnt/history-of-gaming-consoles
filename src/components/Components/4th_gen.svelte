@@ -7,59 +7,97 @@
   
     // Paragraph text for scrolly
     const steps = [
-      `<h1 class='step-title'>Fourth Generation</h1>
+      `<h1 class='step-title'> Fourth Generation </h1>
         <p>
-         The fourth generation of consoles marked significant advancements in gaming. Key consoles in this era include:
-         <ul>
-           <li class="tooltip" data-title="Sega Genesis/Mega Drive" data-img="/images/console_4_1.jpeg">
-             Sega Genesis/Mega Drive
-           </li>
-           <li class="tooltip" data-title="SNES/Super Famicom" data-img="/images/console_4_2.jpeg">
-             SNES/Super Famicom
-           </li>
-           <li class="tooltip" data-title="Atari Lynx" data-img="/images/console_4_3.jpeg">
-             Atari Lynx
-           </li>
-           <li class="tooltip" data-title="PC Engine/TurboGrafx-16" data-img="/images/console_4_4.jpeg">
+          The fourth generation of consoles marked significant advancements in gaming. Key consoles in this era include:
+          <ul>
+            <li class="tooltip" data-title="PC Engine/TurboGrafx-16" data-img="images/gen4/turbo.jpeg">
              PC Engine/TurboGrafx-16
-           </li>
-           <li class="tooltip" data-title="PC Engine CD-ROM" data-img="/images/console_4_5.jpeg">
-             PC Engine CD-ROM
-           </li>
-           <li class="tooltip" data-title="Philips CD-i" data-img="/images/console_4_6.jpeg">
-             Philips CD-i
-           </li>
-           <li class="tooltip" data-title="Sega Pico" data-img="/images/console_4_7.jpeg">
-             Sega Pico
-           </li>
-           <li class="tooltip" data-title="Sega Game Gear" data-img="/images/console_4_8.jpeg">
-             Sega Game Gear
-           </li>
-         </ul>
-        </p>`,
-      `<h1 class='step-title'>Sega Genesis/Mega Drive</h1>
-        <p>
-        </p>`,
-      `<h1 class='step-title'>SNES/Super Famicom</h1>
-        <p>
-        </p>`,
-      `<h1 class='step-title'>Atari Lynx</h1>
-        <p>
+            </li>
+            <li class="tooltip" data-title="Sega Genesis/Mega Drive" data-img="images/gen4/sg.jpeg">
+              Sega Genesis/Mega Drive
+            </li>
+            <li class="tooltip" data-title="PC Engine CD-ROM" data-img="images/gen4/cdrom.jpeg">
+              PC Engine CD-ROM
+            </li>
+            <li class="tooltip" data-title="Atari Lynx" data-img="images/gen4/lynx.jpeg">
+              Atari Lynx
+            </li>
+            <li class="tooltip" data-title="Sega Game Gear" data-img="images/gen4/gamegear.jpeg">
+              Sega Game Gear
+            </li>
+            <li class="tooltip" data-title="SNES/Super Famicom" data-img="images/gen4/snes.jpeg">
+              SNES/Super Famicom
+            </li>
+            <li class="tooltip" data-title="Philips CD-i" data-img="images/gen4/cdi.jpeg">
+              Philips CD-i
+            </li>
+            <li class="tooltip" data-title="Sega Pico" data-img="images/gen4/pico.jpeg">
+              Sega Pico
+            </li>
+          </ul>
         </p>`,
       `<h1 class='step-title'>PC Engine/TurboGrafx-16</h1>
         <p>
+          The TurboGrafx-16 was developed by Hudson Soft and was released on 
+          October 30, 1987. Despite it being developed in North America, it was 
+          mainly successful in its marketing in Japan and failed miserably in 
+          the United States. However, its later models were not as successful 
+          so its operations got shut down relatively shortly after.
         </p>`,
-      `<h1 class='step-title'>PC Engine CD-ROM</h1>
+      `<h1 class='step-title'> Sega Genesis/Mega Drive </h1>
         <p>
+          Sega Genesis was developed by Sega and was released on October 29th, 
+          1988. It had two network services to support the Genesis. It was 
+          mostly successful in the United States and had poor sales in Japan. 
+          Its success was mostly due to the Sonic the Hedgehog series, and 
+          aggressive marketing towards adolescents.
         </p>`,
-      `<h1 class='step-title'>Philips CD-i</h1>
+      `<h1 class='step-title'> PC Engine CD-ROM </h1>
         <p>
+          This is the add-on version to TurboGrafx-16 that was released in 
+          Japan only on December 4th, 1988. This is the first videogame console 
+          that uses CD-ROM to store media. 
         </p>`,
-      `<h1 class='step-title'>Sega Pico</h1>
+      `<h1 class='step-title'> Atari Lynx </h1>
         <p>
+          The Atari Lynx was developed by Epyx and as released on September 1st, 
+          1989. While developing this console, the developers actively tried to 
+          seek for collaboration, but got rejected by the major companies. It 
+          was fairly successful until the release of Sega Saturn, effectively 
+          shutting down the whole business.
         </p>`,
       `<h1 class='step-title'>Sega Game Gear</h1>
         <p>
+          Game Gear was developed by Sega and released on October 6th, 1990. 
+          Although it is considered a rush product by Sega, it has a unique 
+          game library and price point. However, Sega gave little financial 
+          support after its release, and, together with its low battery life, 
+          caused its discontinuation in 1997.
+        </p>`,
+      `<h1 class='step-title'> SNES/Super Famicom </h1>
+        <p>
+          Super Nintendo Entertainment System (SNES) was developed by Nintendo 
+          and was released in November 21, 1990. This is the second home 
+          console that is programmable, and was the best selling console of the 
+          16-bit era after launching. It still remained popular into the 32-bit 
+          era until it was discontinued in 2023.
+        </p>`,
+      `<h1 class='step-title'> Philips CD-i </h1>
+        <p>
+          The CD-i was co-developed by Sony and Philips and was released in 
+          early 1991. In additional to gaming purposed, the CD-i also included 
+          features such as interactive encyclopedias, and even museum tours, 
+          while also having internet access for emails and downloading. 
+          However, it did not find much success in the market and was abandoned 
+          by Philips a few years after.
+        </p>`,
+      `<h1 class='step-title'>Sega Pico</h1>
+        <p>
+          Sega Pico was developed by Sega and released in June 1993. This 
+          gaming console was primarily targeting children between 3-7 years old, 
+          andd was mostly focued on education instead of gaming. It acheived 
+          success in Japan but not in Europe and the US.
         </p>`
     ];
   
@@ -69,78 +107,78 @@
         console: null,
         games: null,
         consoles: [
-          "images/console_4_1.jpeg",
-          "images/console_4_2.jpeg",
-          "images/console_4_3.jpeg",
-          "images/console_4_4.jpeg",
-          "images/console_4_5.jpeg",
-          "images/console_4_6.jpeg",
-          "images/console_4_7.jpeg",
-          "images/console_4_8.jpeg"
+          "images/gen4/turbo.jpeg",
+          "images/gen4/sg.jpeg",
+          "images/gen4/cdrom.jpeg",
+          "images/gen4/lynx.jpeg",
+          "images/gen4/gamegear.jpeg",
+          "images/gen4/snes.jpeg",
+          "images/gen4/cdi.jpeg",
+          "images/gen4/pico.jpeg"
         ]
       },
       {
-        console: "images/console_4_1.jpeg", // Sega Genesis/Mega Drive
+        console: "images/gen4/turbo.jpeg", // Sega Genesis/Mega Drive
         games: [
-          "images/console_4_1_game_1.jpeg", // Streets Of Rage II
-          "images/console_4_1_game_2.jpeg", // Sonic The Hedgehog 2
-          "images/console_4_1_game_3.jpeg" // Golden Axe
+          "images/gen4/turbo_game1.jpeg", // Streets Of Rage II
+          "images/gen4/turbo_game2.jpeg", // Sonic The Hedgehog 2
+          "images/gen4/turbo_game3.jpeg" // Golden Axe
         ]
       },
       {
-        console: "images/console_4_2.jpeg", // SNES/Super Famicom
+        console: "images/gen4/sg.jpeg", // SNES/Super Famicom
         games: [
-          "images/console_4_2_game_1.jpeg",
-          "images/console_4_2_game_2.jpeg",
-          "images/console_4_2_game_3.jpeg"
+          "images/gen4/sg_game1.jpeg",
+          "images/gen4/sg_game2.jpeg",
+          "images/gen4/sg_game3.jpeg"
         ]
       },
       {
-        console: "images/console_4_3.jpeg", // Atari Lynx
+        console: "images/gen4/cdrom.jpeg", // Atari Lynx
         games: [
-          "images/console_4_3_game_1.jpeg", // https://indiegamerchick.com/2023/08/07/atari-lynx-the-definitive-review-part-one/
-          "images/console_4_3_game_2.jpeg",
-          "images/console_4_3_game_3.jpeg"
+          "images/gen4/cdrom_game1.jpeg", // https://indiegamerchick.com/2023/08/07/atari-lynx-the-definitive-review-part-one/
+          "images/gen4/cdrom_game2.jpeg",
+          "images/gen4/cdrom_game3.jpeg"
         ]
       },
       {
-        console: "images/console_4_4.jpeg", // PC Engine/TurboGrafx-16
+        console: "images/gen4/lynx.jpeg", // PC Engine/TurboGrafx-16
         games: [
-          "images/console_4_4_game_1.jpeg", //https://www.blockfort.com/game-lists/turbografx/
-          "images/console_4_4_game_2.jpeg",
-          "images/console_4_4_game_3.jpeg"
+          "images/gen4/lynx_game1.jpeg", //https://www.blockfort.com/game-lists/turbografx/
+          "images/gen4/lynx_game2.jpeg",
+          "images/gen4/lynx_game3.jpeg"
         ]
       },
       {
-        console: "images/console_4_5.jpeg", // PC Engine CD-ROM
+        console: "images/gen4/gamegear.jpeg", // PC Engine CD-ROM
         games: [
-          "images/console_4_5_game_1.jpeg", //https://cdrom.ca/games/2023/06/29/first-cdrom-games.html#:~:text=First%20CD%2DROM%20game%2C%20any,(PC%20Engine%20CD%2C%201988)
-          "images/console_4_5_game_2.jpeg",
-          "images/console_4_5_game_3.jpeg"
+          "images/gen4/gamegear_game1.jpeg", //https://cdrom.ca/games/2023/06/29/first-cdrom-games.html#:~:text=First%20CD%2DROM%20game%2C%20any,(PC%20Engine%20CD%2C%201988)
+          "images/gen4/gamegear_game2.jpeg",
+          "images/gen4/gamegear_game3.jpeg"
         ]
       },
       {
-        console: "images/console_4_6.jpeg", // Philips CD-i https://www.gamesradar.com/best-philips-cdi-games/
+        console: "images/gen4/snes.jpeg", // Philips CD-i https://www.gamesradar.com/best-philips-cdi-games/
         games: [
-          "images/console_4_6_game_1.jpeg", // Secret Mission
-          "images/console_4_6_game_2.jpeg", // Mutant Rampage: Bodyslam
-          "images/console_4_6_game_3.jpeg" // Ram Raid
+          "images/gen4/snes_game1.jpeg", // Secret Mission
+          "images/gen4/snes_game2.jpeg", // Mutant Rampage: Bodyslam
+          "images/gen4/snes_game3.jpeg" // Ram Raid
         ]
       },
       {
-        console: "images/console_4_7.jpeg", // Sega Pico https://segaretro.org/A_Year_at_Pooh_Corner
+        console: "images/gen4/cdi.jpeg", // Sega Pico https://segaretro.org/A_Year_at_Pooh_Corner
         games: [
-          "images/console_4_7_game_1.jpeg",
-          "images/console_4_7_game_2.jpeg",
-          "images/console_4_7_game_3.jpeg"
+          "images/gen4/cdi_game1.jpeg",
+          "images/gen4/cdi_game2.jpeg",
+          "images/gen4/cdi_game3.jpeg"
         ]
       },
       {
-        console: "images/console_4_8.jpeg", // Sega Game Gear
+        console: "images/gen4/pico.jpeg", // Sega Game Gear
         games: [
-          "images/console_4_8_game_1.jpeg", // sonic drift
-          "images/console_4_8_game_2.jpeg",
-          "images/console_4_8_game_3.jpeg"
+          "images/gen4/pico_game1.jpeg", // sonic drift
+          "images/gen4/pico_game2.jpeg",
+          "images/gen4/pico_game3.jpeg"
         ]
       }
     ];

@@ -7,35 +7,56 @@
 
   // Paragraph text for scrolly
   $: steps = [
-    `<h1 class='step-title'>Fifth Generation: Playstation Joins the Party</h1>
+    `<h1 class='step-title'> Fifth Generation: Playstation Joins the Party </h1>
       <p>
-       The fifth generation is the first time the name "Playstation" appears in the list. Consoles include
-       <ul>
-         <li class="tooltip" data-title="Playstation" data-img="/images/console_5_1.jpeg">
-           Playstation
-         </li>
-         <li class="tooltip" data-title="Nintendo 64" data-img="/images/console_5_2.jpeg">
-           Nintendo 64
-         </li>
-         <li class="tooltip" data-title="Sega Saturn" data-img="/images/console_5_3.jpeg">
-           Sega Saturn
-         </li>
-         <li class="tooltip" data-title="Game Boy Color" data-img="/images/console_5_4.jpeg">
-           Game Boy Color
-         </li>
-       </ul>
+        The fifth generation is the first time the name "Playstation" appears in the list. Consoles include
+        <ul>
+          <li class="tooltip" data-title="Sega Saturn" data-img="images/gen5/saturn.jpeg">
+            Sega Saturn
+          </li>
+          <li class="tooltip" data-title="Playstation" data-img="images/gen5/ps.jpeg">
+            Playstation
+          </li>
+          <li class="tooltip" data-title="Nintendo 64" data-img="images/gen5/nintendo64.jpeg">
+            Nintendo 64
+          </li>
+          <li class="tooltip" data-title="Game Boy Color" data-img="images/gen5/gbc.jpeg">
+            Game Boy Color
+          </li>
+        </ul>
       </p>`,
-    `<h1 class='step-title'>Step 2</h1>
+    `<h1 class='step-title'> Sega Saturn </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        Sega Saturn was developed by Sega and released on November 22, 1994. It 
+        was initially very successful in Japan but not in the United States. 
+        Due to the product being not popular enough outside of Japan, it was 
+        widely considered a commercial failure, and Sega's management was 
+        heavily criticized for their commercial decisions.
       </p>`,
-    `<h1 class='step-title'>Step 3</h1>
+    `<h1 class='step-title'> PlayStation </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        PlayStation was developed by Sony Computer Entertainment and was 
+        released on December 3rd, 1994. Sony began this whole series of 
+        PlayStation consoles because they failed to venture with Nintendo in 
+        the early 1990s. The first model already had an extensive library, low 
+        retail price, and aggresive marketing which later proved to be very 
+        successful.
       </p>`,
-    `<h1 class='step-title'>Step 4</h1>
+    `<h1 class='step-title'> Nintendo 64 </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        Nintendo 64 was developed by Nintendo and released on June 23, 
+        1996. It was named the Machine of the Year in 1996, and its popularity 
+        led to more color variants being developed later in the next year. It 
+        was discontinued after the Gamecube was launched.
+      </p>`,
+    `<h1 class='step-title'> Game Boy Color </h1>
+      <p>
+        Game Boy Color was developed by Nintendo Research & Engineering and was 
+        released on October 21, 1998. This version was made significantly 
+        smaller than the original version of the Game Boy models. It was 
+        questioned in the developed process due to it being a monochrome 
+        handhelded device, but it had great portability and battery life, which 
+        made it stand out in the competitive market.
       </p>`
   ];
 
@@ -45,42 +66,42 @@
       console: null,
       games: null,
       consoles: [
-        "images/console_5_1.jpeg",
-        "images/console_5_2.jpeg",
-        "images/console_5_3.jpeg",
-        "images/console_5_4.jpeg"
+        "images/gen5/saturn.jpeg",
+        "images/gen5/ps.jpeg",
+        "images/gen5/nintendo64.jpeg",
+        "images/gen5/gbc.jpeg"
       ]
     },
     {
-      console: "images/console_5_1.jpeg",
+      console: "images/gen5/saturn.jpeg",
       games: [
-        "images/console_5_1_game_1.jpeg",
-        "images/console_5_1_game_2.jpeg",
-        "images/console_5_1_game_3.jpeg"
+        "images/gen5/saturn_game1.jpeg",
+        "images/gen5/saturn_game2.jpeg",
+        "images/gen5/saturn_game3.jpeg"
       ]
     },
     {
-      console: "images/console_5_2.jpeg",
+      console: "images/gen5/ps.jpeg",
       games: [
-        "images/console_5_2_game_1.jpeg",
-        "images/console_5_2_game_2.jpeg",
-        "images/console_5_2_game_3.jpeg"
+        "images/gen5/ps_game1.jpeg",
+        "images/gen5/ps_game2.jpeg",
+        "images/gen5/ps_game3.jpeg"
       ]
     },
     {
-      console: "images/console_5_3.jpeg",
+      console: "images/gen5/nintendo64.jpeg",
       games: [
-        "images/console_5_3_game_1.jpeg",
-        "images/console_5_3_game_2.jpeg",
-        "images/console_5_3_game_3.jpeg"
+        "images/gen5/nintendo64_game1.jpeg",
+        "images/gen5/nintendo64_game2.jpeg",
+        "images/gen5/nintendo64_game3.jpeg"
       ]
     },
     {
-      console: "images/console_5_4.jpeg",
+      console: "images/gen5/gbc.jpeg",
       games: [
-        "images/console_5_4_game_1.jpeg",
-        "images/console_5_4_game_2.jpeg",
-        "images/console_5_4_game_3.jpeg"
+        "images/gen5/gbc_game1.jpeg",
+        "images/gen5/gbc_game2.jpeg",
+        "images/gen5/gbc_game3.jpeg"
       ]
     }
   ];

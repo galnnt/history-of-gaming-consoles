@@ -7,32 +7,45 @@
 
   // Paragraph text for scrolly
   $: steps = [
-    `<h1 class='step-title'>First Generation: The Beginning of the Console Era</h1>
+    `<h1 class='step-title'> First Generation: The Beginning of the Console Era </h1>
       <p>
-       The first generation of consoles marked the beginning of home gaming. Key consoles in this era include:
-       <ul>
-         <li class="tooltip" data-title="Color TV-Game by Nintendo" data-img="/images/console_1_1.jpeg">
-           Color TV-Game
-         </li>
-         <li class="tooltip" data-title="Telstar by Coleco" data-img="/images/console_1_2.jpeg">
-           Telstar
-         </li>
-         <li class="tooltip" data-title="Magnavox Odyssey by Magnavox" data-img="/images/console_1_3.jpeg">
-           Magnavox Odyssey
-         </li>
-       </ul>
-      </p>`,
-    `<h1 class='step-title'>Color TV-Game</h1>
-      <p>
-        Color TV-Game
-      </p>`,
-    `<h1 class='step-title'>Telstar</h1>
-      <p>
-        Description:
+        The first generation of consoles marked the beginning of home gaming. 
+        Key consoles in this era include:
+        <ul>
+          <li class="tooltip" data-title="Magnavox Odyssey by Magnavox" data-img="images/gen1/odyssey.jpeg">
+            Magnavox Odyssey
+          </li>
+          <li class="tooltip" data-title="Telstar by Coleco" data-img="images/gen1/telstar.jpeg">
+            Telstar
+          </li>
+          <li class="tooltip" data-title="Color TV-Game by Nintendo" data-img="images/gen1/colortv.jpeg">
+            Color TV-Game
+          </li>
+        </ul>
       </p>`,
     `<h1 class='step-title'>Magnavox Odyssey</h1>
       <p>
-        Description      
+        The Magnavox Odyssey is the first commercial home videogame console. It 
+        was designed by Ralph H Baer at Sanders Associates, and later published 
+        by Magnavox in September 1972. It consists of a box connected to two 
+        rectangular controllers, which connect to a TV by wire. It was designed 
+        to play the simples of games: Hockey, Submarine, Tennis, and many other 
+        more were included.
+      </p>`,
+    `<h1 class='step-title'>Telstar</h1>
+      <p>
+        Telstar was developed by Coleco and was released some time in 1976. 
+        It started with the typical clone game, and had a total of 14 consoles 
+        that were released in this series. However, the gradual fading of pong 
+        machines eventually led Coleco to almost being bankrupt in 1980.
+      </p>`,
+    `<h1 class='step-title'> Color TV-Game </h1>
+      <p>
+        Color TV-Game was the first videogame system developed by Nintendo, and 
+        it was released on June 1st, 1977. The consoles were a product of the 
+        collaboration between Nintendo Research and Mitsubishi Electronics. It 
+        was the beginning of the plethora of products that Nintendo would 
+        continue to release.
       </p>`
   ];
 
@@ -42,33 +55,33 @@
       console: null,
       games: null,
       consoles: [
-        "images/console_1_1.jpeg",
-        "images/console_1_2.jpeg",
-        "images/console_1_3.jpeg"
+        "images/gen1/odyssey.jpeg",
+        "images/gen1/telstar.jpeg",
+        "images/gen1/colortv.jpeg"
       ]
     },
     {
-      console: "images/console_1_1.jpeg",
+      console: "images/gen1/odyssey.jpeg",
       games: [
-        "images/console_1_1_game_1_1.jpeg",
-        "images/console_1_1_game_1_2.jpeg",
-        "images/console_1_1_game_1_3.jpeg"
+        "images/gen1/odyssey_game1.jpeg",
+        "images/gen1/odyssey_game2.jpeg",
+        "images/gen1/odyssey_game3.jpeg"
       ]
     },
     {
-      console: "images/console_1_2.jpeg",
+      console: "images/gen1/telstar.jpeg",
       games: [
-        "images/console_1_2_game_1_1.jpeg",
-        "images/console_1_2_game_1_2.jpeg",
-        "images/console_1_2_game_1_3.jpeg"
+        "images/gen1/telstar_game1.jpeg",
+        "images/gen1/telstar_game2.jpeg",
+        "images/gen1/telstar_game3.jpeg"
       ]
     },
     {
-      console: "images/console_1_3.jpeg",
+      console: "images/gen1/colortv.jpeg",
       games: [
-        "images/console_1_3_game_1_1.jpeg",
-        "images/console_1_3_game_1_1.jpeg",
-        "images/console_1_3_game_1_1.jpeg"
+        "images/gen1/colortv_game1.jpeg",
+        "images/gen1/colortv_game2.jpeg",
+        "images/gen1/colortv_game3.jpeg"
       ]
     }
   ];

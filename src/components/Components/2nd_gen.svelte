@@ -9,39 +9,63 @@
   $: steps = [
     `<h1 class='step-title'>Second Generation</h1>
       <p>
-       The second generation of consoles marked the beginning of home gaming. Key consoles in this era include:
-       <ul>
-         <li class="tooltip" data-title="Game & Watch" data-img="/images/console_2_1.jpeg">
-          Game & Watch
-         </li>
-         <li class="tooltip" data-title="Atari 2600" data-img="/images/console_2_2.jpeg">
+        The second generation of consoles marked the beginning of home gaming. Key consoles in this era include:
+        <ul>
+          <li class="tooltip" data-title="Atari 2600" data-img="images/gen2/a2600.jpeg">
           Atari 2600
-         </li>
-         <li class="tooltip" data-title=">Atari 5200" data-img="/images/console_2_3.jpeg">
+          </li>
+          <li class="tooltip" data-title="Intellivision" data-img="images/gen2/iv.jpeg">
+           Intellivision
+          </li>
+          <li class="tooltip" data-title="Game & Watch" data-img="images/gen2/gw.jpeg">
+           Game & Watch
+          </li>
+          <li class="tooltip" data-title="ColecoVision" data-img="images/gen2/cv.jpeg">
            ColecoVision
-         </li>
-         <li class="tooltip" data-title="Intellivision" data-img="/images/console_2_4.jpeg">
-          Intellivision
-         </li>
-         <li class="tooltip" data-title="ColecoVision" data-img="/images/console_2_5.jpeg">
-          ColecoVision
-         </li>
-       </ul>
+          </li>
+          <li class="tooltip" data-title=">Atari 5200" data-img="images/gen2/a5200.jpeg">
+            ColecoVision
+          </li>
+        </ul>
       </p>`,
-    `<h1 class='step-title'>Game & Watch/h1>
+    `<h1 class='step-title'> Atari 2600 </h1>
       <p>
+        Atari 2600 was developed by Atari Inc., and was released in September 
+        1977. The game Pacman first appeared on this system. However, the poor 
+        managerial decisions from the Atari corporation damaged the repuration 
+        of both the console and the company, which eventually led to the 
+        videogame crash in 1983.
       </p>`,
-    `<h1 class='step-title'>Atari 2600</h1>
+    `<h1 class='step-title'> Intellivision </h1>
       <p>
+        Intellivision was developed by Mattel Electronics and was released in 
+        late 1979. It had a Gi chipset in the console, but had reliability 
+        issues because the chips needed three different supply voltages to work. 
+        Overheating was a major issue for Intellivision, but nevertheless it 
+        still posed a major challenge to companies like Atari.
       </p>`,
-    `<h1 class='step-title'>Atari 5200</h1>
+    `<h1 class='step-title'> Game & Watch </h1>
       <p>
+        Game & Watch was developed by Nintendo and was released on April 28, 
+        1980. It was mainly the idea of designer Gunpei Yokoi, who thought of 
+        the idea when he was playing with an LCD calculator on the Shinkansen. 
+        The first game on Game & Watch, Ball, was a major game hit in the 
+        Nintendo gaming industry.
       </p>`,
-    `<h1 class='step-title'>Intellivision</h1>
+    `<h1 class='step-title'> ColecoVision </h1>
       <p>
+        Colecovision was developed by CBS Electronics, and was released in 
+        August 1982. Coleco almost became bankrupt while developing this game 
+        console, but eventually got the job done. In fact, this was the console 
+        where Donkey Kong first appears in. 
       </p>`,
-    `<h1 class='step-title'>ColecoVision</h1>
+    `<h1 class='step-title'> Atari 5200 </h1>
       <p>
+        Atari 5200 was developed by Atari Inc., and was released in November 
+        1982. It had a controller with an analog joystick on the controller. 
+        This was one of the major points of criticism for the product, as it 
+        failed to translate human action into a linear acceleration. In the end, 
+        not many Atari 5200s were sold because of the poor design.
       </p>`
   ];
 
@@ -49,51 +73,51 @@
   const images = [
     {
       consoles: [
-        "images/console_2_1.jpeg",
-        "images/console_2_2.jpeg",
-        "images/console_2_3.jpeg",
-        "images/console_2_4.jpeg",
-        "images/console_2_5.jpeg"
+        "images/gen2/a2600.jpeg",
+        "images/gen2/iv.jpeg",
+        "images/gen2/gw.jpeg",
+        "images/gen2/cv.jpeg",
+        "images/gen2/a5200.jpeg"
       ]
     },
     {
-      console: "images/console_2_1.jpeg",
+      console: "images/gen2/a2600.jpeg",
       games: [
-        "images/console_2_1_game_1.jpeg",
-        "images/console_2_1_game_2.jpeg",
-        "images/console_2_1_game_3.jpeg"
+        "images/gen2/a2600_game1.jpeg",
+        "images/gen2/a2600_game2.jpeg",
+        "images/gen2/a2600_game3.jpeg"
       ]
     },
     {
-      console: "images/console_2_2.jpeg",
+      console: "images/gen2/iv.jpeg",
       games: [
-        "images/console_2_2_game_1.jpeg",
-        "images/console_2_2_game_2.jpeg",
-        "images/console_2_2_game_3.jpeg"
+        "images/gen2/iv_game1.jpeg",
+        "images/gen2/iv_game2.jpeg",
+        "images/gen2/iv_game3.jpeg"
       ]
     },
     {
-      console: "images/console_2_3.jpeg",
+      console: "images/gen2/gw.jpeg",
       games: [
-        "images/console_2_2_game_1.jpeg",
-        "images/console_2_2_game_2.jpeg",
-        "images/console_2_2_game_3.jpeg"
+        "images/gen2/gw_game1.jpeg",
+        "images/gen2/gw_game2.jpeg",
+        "images/gen2/gw_game3.jpeg"
       ]
     },
     {
-      console: "images/console_2_4.jpeg",
+      console: "images/gen2/cv.jpeg",
       games: [
-        "images/console_2_4_game_1.jpeg",
-        "images/console_2_4_game_2.jpeg",
-        "images/console_2_4_game_3.jpeg"
+        "images/gen2/cv_game1.jpeg",
+        "images/gen2/cv_game2.jpeg",
+        "images/gen2/cv_game3.jpeg"
       ]
     },
     {
-      console: "images/console_2_5.jpeg",
+      console: "images/gen2/a5200.jpeg",
       games: [
-        "images/console_2_5_game_1.jpeg",
-        "images/console_2_5_game_2.jpeg",
-        "images/console_2_5_game_3.jpeg"
+        "images/gen2/a5200_game1.jpeg",
+        "images/gen2/a5200_game2.jpeg",
+        "images/gen2/a5200_game3.jpeg"
       ]
     }
   ];

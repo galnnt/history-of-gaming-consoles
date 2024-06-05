@@ -20,6 +20,8 @@
   import EighthGen from "./Components/8th_gen.svelte"
   import NinthGen from "./Components/9th_gen.svelte"
   import Final_chart from "./Components/final_chart.svelte"
+
+  import Nintendo from "./Components/nintendo.svelte";
 </script>
 
 
@@ -55,9 +57,11 @@ I have checked the code basically each subcode in components conmtrols one part.
 <!-- 8th gen -->
 <EighthGen />
 
-
 <!-- 9th gen -->
 <NinthGen />
+
+<!-- Test -->
+<Nintendo />
 
 <!-- <ScrollonLeftSide /> 
 <Scrollonright /> <I made this copy, we can use more here and there. -->

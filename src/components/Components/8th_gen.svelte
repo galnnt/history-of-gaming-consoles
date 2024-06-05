@@ -7,34 +7,36 @@
 
   // Paragraph text for scrolly
   $: steps = [
-    `<h1 class='step-title'>Eighth Generation</h1>
+    `<h1 class='step-title'> Eighth Generation </h1>
       <p>
-       Eighth generation. Consoles include
-       <ul>
-         <li class="tooltip" data-title="Nintendo Switch" data-img="/images/console_8_1.jpeg">
-           Nintendo Switch
-         </li>
-         <li class="tooltip" data-title="Playstation 4" data-img="/images/console_8_2.jpeg">
-           Playstation 4
-         </li>
-         <li class="tooltip" data-title="Wii U" data-img="/images/console_8_3.jpeg">
-           Wii U
-         </li>
-         <li class="tooltip" data-title="Xbox One" data-img="/images/console_8_4.jpeg">
-           Xbox One
-         </li>
-         <li class="tooltip" data-title="Playstation Vita" data-img="/images/console_8_5.jpeg">
+        The eighth generation was heavily influenced by the growth of the mobile 
+        gaming industry. Most improved on their hardwares for a better gaming 
+        experience. Consoles include
+        <ul>
+          <li class="tooltip" data-title="Playstation Vita" data-img="images/gen8/psvita.jpeg">
            Playstation Vita
-         </li>
+          </li>
+          <li class="tooltip" data-title="Playstation 4" data-img="images/gen8/ps4.jpeg">
+            Playstation 4
+          </li>
+          <li class="tooltip" data-title="Wii U" data-img="images/gen8/wiiu.jpeg">
+            Wii U
+          </li>
+          <li class="tooltip" data-title="Xbox One" data-img="images/gen8/xboxone.jpeg">
+            Xbox One
+          </li>
+          <li class="tooltip" data-title="Nintendo Switch" data-img="images/gen8/switch.jpeg">
+            Nintendo Switch
+          </li>
        </ul>
       </p>`,
-    `<h1 class='step-title'> Nintendo Switch </h1>
-      <p>
-        The Nintendo Switch was developed by Nintendo and was released on March 
-        3rd, 2017. It is a tablet that can either be put onto a dock or used as 
-        a portable device, depending on the usage. It as very popular for its 
-        Joy-Con controllers to support local multiplayer game modes.
-      </p>`,
+    `<h1 class='step-title'> Playstation Vita </h1>
+    <p>
+      Playstation Vita was developed by Sony Computer Entertainment, and was 
+      released on December 17, 2011. It acted as a successor to Playstation 
+      Portable, to follow the ongoing trend of popular mobile games. It had a 
+      lot of support in JRPGs, visual novels, and indie games.
+    </p>`,
     `<h1 class='step-title'> Playstation 4 </h1>
       <p>
         Playstation 4 was developed by Sony Computer Entertainment, and was 
@@ -51,7 +53,7 @@
         upon the release was the short span of the battery life, which was 
         considered an important factor for the gaming experience.
       </p>`,
-      `<h1 class='step-title'> Xbox One </h1>
+    `<h1 class='step-title'> Xbox One </h1>
       <p>
         Xbox one was developed by Microsoft and released during November 2013. 
         From its last generation, it improve on motion tracking and voice 
@@ -59,12 +61,12 @@
         cloud computing and social networking, including features like 
         livestreaming and recording videoclips of games.
       </p>`,
-      `<h1 class='step-title'> Playstation Vita </h1>
+    `<h1 class='step-title'> Nintendo Switch </h1>
       <p>
-        Playstation Vita was developed by Sony Computer Entertainment, and was 
-        released on December 11, 2011. It acted as a successor to Playstation 
-        Portable, to follow the ongoing trend of popular mobile games. It had a 
-        lot of support in JRPGs, visual novels, and indie games.
+        The Nintendo Switch was developed by Nintendo and was released on March 
+        3rd, 2017. It is a tablet that can either be put onto a dock or used as 
+        a portable device, depending on the usage. It as very popular for its 
+        Joy-Con controllers to support local multiplayer game modes.
       </p>`
   ];
   // Define images for each step
@@ -73,51 +75,51 @@
       console: null,
       games: null,
       consoles: [
-        "images/console_8_1.jpeg",
-        "images/console_8_2.jpeg",
-        "images/console_8_3.jpeg",
-        "images/console_8_4.jpeg",
-        "images/console_8_5.jpeg"
+        "images/gen8/psvita.jpeg",
+        "images/gen8/ps4.jpeg",
+        "images/gen8/wiiu.jpeg",
+        "images/gen8/xboxone.jpeg",
+        "images/gen8/switch.jpeg"
       ]
     },
     {
-      console: "images/console_8_1.jpeg",
+      console: "images/gen8/psvita.jpeg",
       games: [
-        "images/console_8_1_game_1.jpeg",
-        "images/console_8_1_game_2.jpeg",
-        "images/console_8_1_game_3.jpeg"
+        "images/gen8/psvita_game1.jpeg",
+        "images/gen8/psvita_game2.jpeg",
+        "images/gen8/psvita_game3.jpeg"
       ]
     },
     {
-      console: "/images/console_8_2.jpeg",
+      console: "/images/gen8/ps4.jpeg",
       games: [
-        "/images/console_8_2_game_1.jpeg",
-        "/images/console_8_2_game_2.jpeg",
-        "/images/console_8_2_game_3.jpeg"
+        "images/gen8/ps4_game1.jpeg",
+        "images/gen8/ps4_game2.jpeg",
+        "images/gen8/ps4_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_3.jpeg",
+      console: "images/gen8/wiiu.jpeg",
       games: [
-        "images/console_8_3_game_1.jpeg",
-        "images/console_8_3_game_2.jpeg",
-        "images/console_8_3_game_3.jpeg"
+        "images/gen8/wiiu_game1.jpeg",
+        "images/gen8/wiiu_game2.jpeg",
+        "images/gen8/wiiu_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_4.jpeg",
+      console: "images/gen8/xboxone.jpeg",
       games: [
-        "images/console_8_4_game_1.jpeg",
-        "images/console_8_4_game_2.jpeg",
-        "images/console_8_4_game_3.jpeg"
+        "images/gen8/xboxone_game1.jpeg",
+        "images/gen8/xboxone_game2.jpeg",
+        "images/gen8/xboxone_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_5.jpeg",
+      console: "images/gen8/switch.jpeg",
       games: [
-        "images/console_8_5_game_1.jpeg",
-        "images/console_8_5_game_2.jpeg",
-        "images/console_8_5_game_3.jpeg"
+        "images/gen8/switch_game1.jpeg",
+        "images/gen8/switch_game2.jpeg",
+        "images/gen8/switch_game3.jpeg"
       ]
     }
   ];
@@ -139,7 +141,7 @@
   }
 </script>
 
-<h2 class="body-header">8th Generation: The Advancement of the Console Era</h2>
+<h2 class="body-header"> 8th Generation: The Advancement of the Console Era </h2>
 <p class="body-text">
   This is the eighth generation of gaming consoles.
 </p>

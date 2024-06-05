@@ -9,25 +9,67 @@
     $: steps = [
       `<h1 class='step-title'>Third Generation</h1>
         <p>
-         The third generation of consoles marked a significant advancement in gaming. Key consoles in this era include:
-         <ul>
-           <li class="tooltip" data-title="Sega Master System" data-img="/images/console_3_1.jpeg">Sega Master System</li>
-           <li class="tooltip" data-title="Atari 7800" data-img="/images/console_3_2.jpeg">Atari 7800</li>
-           <li class="tooltip" data-title="Nintendo Entertainment System (NES)" data-img="/images/console_3_3.jpeg">NES</li>
-           <li class="tooltip" data-title="Famicom Disk System" data-img="/images/console_3_4.jpeg">Famicom Disk System</li>
-           <li class="tooltip" data-title="Game Boy" data-img="/images/console_3_5.jpeg">Game Boy</li>
-         </ul>
+          The third generation of consoles marked a significant advancement in 
+          gaming. Key consoles in this era include:
+          <ul>
+            <li class="tooltip" data-title="Nintendo Entertainment System (NES)" data-img="images/gen3/nes.jpeg">
+              NES
+            </li>
+            <li class="tooltip" data-title="Sega Master System" data-img="images/gen3/sms.jpeg">
+              Sega Master System
+            </li>
+            <li class="tooltip" data-title="Famicom Disk System" data-img="images/gen3/fds.jpeg">
+              Famicom Disk System
+            </li>
+            <li class="tooltip" data-title="Atari 7800" data-img="images/gen3/a7800.jpeg">
+              Atari 7800
+            </li>
+            <li class="tooltip" data-title="Game Boy" data-img="images/gen3/gameboy.jpeg">
+              Game Boy
+            </li>
+          </ul>
         </p>`,
-      `<h1 class='step-title'> Sega Master System</h1>
-        <p></p>`,
-      `<h1 class='step-title'>Atari 7800</h1>
-        <p></p>`,      
-      `<h1 class='step-title'>Nintendo Entertainment System (NES)</h1>
-        <p></p>`,      
-       `<h1 class='step-title'>Famicom Disk System</h1>
-        <p></p>`,
+      `<h1 class='step-title'> Nintendo Entertainment System (NES) </h1>
+        <p>
+          The NES was developed by Nintendo and was released on July 15th, 1983. 
+          It was first launched in Japan, then was imported into the US after 
+          its early sucess. In fact, it was one of the most influential consoles 
+          in the US of all time, as it helped revitalize the US gaming industry 
+          from the videogame crash in 1983, and also helped set up a standard 
+          business model for licencing.  
+        </p>`,
+      `<h1 class='step-title'> Sega Master System </h1>
+        <p>
+          The Master System was developed by Sega, and was released on October 
+          20th, 1985. It mostly uses Sega cards to load games, and also has 
+          a light gun and 3D glasses that are compatible with specially designed 
+          game systems. It failed to compete with Nintendo in Japan, but had 
+          significant success in other regions, including the US, Brazil, and 
+          Europe.
+        </p>`,
+      `<h1 class='step-title'> Famicom Disk System </h1>
+        <p>
+          The Famicom Disk System was developed by Nintendo and was released 
+          on February 21st, 1986. This console was only ever sold in Japan, 
+          helped boost the market in developing videogames, including the 
+          very popular ones such as Legend of Zelda, Super Mario Bros 2, etc.
+        </p>`,
+      `<h1 class='step-title'> Atari 7800 </h1>
+        <p>
+          Atari 7800 Prosystem was developed by Atari Corporation and released 
+          in May 1986. It was in fact designed by an outside company called 
+          General Computer Corporation. It aimed for mostly arcade games, but 
+          was frequently complained for the slow release of new games hence only 
+          hanged on until 1992 when it was discontinued.
+        </p>`,      
       `<h1 class='step-title'>Game Boy</h1>
-        <p></p>`,
+        <p>
+          Gameboy was developed by Nintendo, and was released on April 21, 1989. 
+          Although critics had skepticism on its monochromatic graphics and the 
+          larger size, it outsold almost all of its competitors. It had many 
+          variants after the initial development, which continues all the way 
+          into the early 2000s.  
+        </p>`,
     ];
   
     // Define images for each step
@@ -36,51 +78,51 @@
         console: null,
         games: null,
         consoles: [
-          "images/console_3_1.jpeg",
-          "images/console_3_2.jpeg",
-          "images/console_3_3.jpeg",
-          "images/console_3_4.jpeg",
-          "images/console_3_5.jpeg"
+          "images/gen3/nes.jpeg",
+          "images/gen3/sms.jpeg",
+          "images/gen3/fds.jpeg",
+          "images/gen3/a7800.jpeg",
+          "images/gen3/gameboy.jpeg"
         ]
       },
       {
-        console: "images/console_3_1.jpeg", // Sega Master System
+        console: "images/gen3/nes.jpeg", // Sega Master System
         games: [
-          "images/console_3_1_game_1.jpeg", //Rocketboy
-          "images/console_3_1_game_2.jpeg",
-          "images/console_3_1_game_3.jpeg" //https://www.cbr.com/10-sega-master-system-games-that-went-head-to-head-with-nintendo/
+          "images/gen3/nes_game1.jpeg", //Rocketboy
+          "images/gen3/nes_game2.jpeg",
+          "images/gen3/nes_game3.jpeg" //https://www.cbr.com/10-sega-master-system-games-that-went-head-to-head-with-nintendo/
         ]
       },
       {
-        console: "images/console_3_2.jpeg", // Atari 7800
+        console: "images/gen3/sms.jpeg", // Atari 7800
         games: [
-          "images/console_3_2_game_1.jpeg", //https://www.blockfort.com/game-lists/atari7800/ Joust
-          "images/console_3_2_game_2.jpeg", // Centipede
-          "images/console_3_2_game_3.jpeg" // Food Fight
+          "images/gen3/sms_game1.jpeg", //https://www.blockfort.com/game-lists/atari7800/ Joust
+          "images/gen3/sms_game2.jpeg", // Centipede
+          "images/gen3/sms_game3.jpeg" // Food Fight
         ]
       },
       {
-        console: "images/console_3_3.jpeg",//NES
+        console: "images/gen3/fds.jpeg",//NES
         games: [
-          "images/console_3_3_game_1.jpeg",
-          "images/console_3_3_game_2.jpeg",
-          "images/console_3_3_game_3.jpeg" //Contra
+          "images/gen3/fds_game1.jpeg",
+          "images/gen3/fds_game2.jpeg",
+          "images/gen3/fds_game3.jpeg" //Contra
         ]
       },
       {
-        console: "images/console_3_4.jpeg", // Famicom Disk System
+        console: "images/gen3/a7800.jpeg", // Famicom Disk System
         games: [
-          "images/console_3_4_game_1.jpeg",
-          "images/console_3_4_game_2.jpeg",
-          "images/console_3_4_game_3.jpeg"
+          "images/gen3/a7800_game1.jpeg",
+          "images/gen3/a7800_game2.jpeg",
+          "images/gen3/a7800_game3.jpeg"
         ]
       },
       {
-        console: "images/console_3_5.jpeg", // Game Boy
+        console: "images/gen3/gameboy.jpeg", // Game Boy
         games: [
-          "images/console_3_5_game_1.jpeg",
-          "images/console_3_5_game_2.jpeg",
-          "images/console_3_5_game_3.jpeg"
+          "images/gen3/gameboy_game1.jpeg",
+          "images/gen3/gameboy_game2.jpeg",
+          "images/gen3/gameboy_game3.jpeg"
         ]
       }
     ];

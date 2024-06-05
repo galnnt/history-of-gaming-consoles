@@ -9,38 +9,35 @@
   $: steps = [
     `<h1 class='step-title'>Seventh Generation</h1>
       <p>
-       Seventh generation. Consoles include
-       <ul>
-         <li class="tooltip" data-title="Nintendo DS" data-img="/images/console_7_1.jpeg">
-           Nintendo DS
-         </li>
-         <li class="tooltip" data-title="Nintendo 3DS" data-img="/images/console_7_2.jpeg">
-           Nintendo 3DS
-         </li>
-         <li class="tooltip" data-title="Xbox 360" data-img="/images/console_7_3.jpeg">
+       The seventh generation largely incorporated motion sensors for a more 
+       interactive gaming experience. A lot of these gaming products have an 
+       emphasis on having to simulate real-world actions into the games that 
+       people were playing. Consoles include:
+        <ul>
+          <li class="tooltip" data-title="Nintendo DS" data-img="images/gen7/nds.jpeg">
+            Nintendo DS
+          </li>
+          <li class="tooltip" data-title="Xbox 360" data-img="images/gen7/xbox360.jpeg">
            Xbox 360
-         </li>
-         <li class="tooltip" data-title="Playstation 3" data-img="/images/console_7_4.jpeg">
+          </li>
+          <li class="tooltip" data-title="Playstation 3" data-img="images/gen7/ps3.jpeg">
            Playstation 3
-         </li>
-         <li class="tooltip" data-title="Wii" data-img="/images/console_7_5.jpeg">
+          </li>
+          <li class="tooltip" data-title="Wii" data-img="images/gen7/wii.jpeg">
            Wii
-         </li>
-       </ul>
+          </li>
+          <li class="tooltip" data-title="Nintendo 3DS" data-img="images/gen7/n3ds.jpeg">
+            Nintendo 3DS
+          </li>
+        </ul>
       </p>`,
     `<h1 class='step-title'> Nintendo DS </h1>
       <p>
         Nintendo DS is a foldable game console developed by Nintendo, released 
         across 2004 and 2005. It introduced a brand new feature at the time: 
-        including two LCD screens working in tandem 
-      </p>`,
-    `<h1 class='step-title'> Nintendo 3DS </h1>
-      <p>
-        Following the release of Nintendo DS, the 3DS was released on February 
-        26, 2011. However, its initial sells were not the best, leading to 
-        Nintendo drastically lowering the price of the product. It featured a 
-        second analog stick called the C-stick, additional buttons, and an 
-        improved camera.
+        including two LCD screens working in tandem. Moreover, it allowed 
+        multiple copies of the same product to interact with each other under 
+        the same Wifi network.
       </p>`,
     `<h1 class='step-title'> Xbox 360 </h1>
       <p>
@@ -50,7 +47,7 @@
         Additionally, it had the Kinect motion sensing camera, which was used 
         in many of its games.
       </p>`,
-      `<h1 class='step-title'> Playstation 3 </h1>
+    `<h1 class='step-title'> Playstation 3 </h1>
       <p>
         PlayStation 3 was developed by Sony Computer Entertainment and was 
         released on  Noverber 11, 2006. This console had a slow start in the 
@@ -58,14 +55,22 @@
         its Blu-ray capabilities, and wsa lighter and thinner than the previous 
         version of PlayStation.
       </p>`,
-      `<h1 class='step-title'> Wii </h1>
+    `<h1 class='step-title'> Wii </h1>
       <p>
         Wii was developed by Nintendo, and was released in December 2006. The 
         primary controller was the Wii Remore, and it was the first Nintendo 
         console to directly support internet activiry, supporting vast amounts 
         of online games. One game that was a killer was Wii Sports, the game 
         which included all types of sports that players can experience at home.
-      </p>`
+      </p>`,
+    `<h1 class='step-title'> Nintendo 3DS </h1>
+      <p>
+        Following the release of Nintendo DS, the 3DS was released on February 
+        26, 2011. However, its initial sells were not the best, leading to 
+        Nintendo drastically lowering the price of the product. It featured a 
+        second analog stick called the C-stick, additional buttons, and an 
+        improved camera.
+      </p>`,
   ];
 
   // Define images for each step
@@ -74,51 +79,51 @@
       console: null,
       games: null,
       consoles: [
-        "images/console_7_1.jpeg",
-        "images/console_7_2.jpeg",
-        "images/console_7_3.jpeg",
-        "images/console_7_4.jpeg",
-        "images/console_7_5.jpeg"
+        "images/gen7/nds.jpeg",
+        "images/gen7/xbox360.jpeg",
+        "images/gen7/wii.jpeg",
+        "images/gen7/ps3.jpeg",
+        "images/gen7/n3ds.jpeg"
       ]
     },
     {
-      console: "images/console_7_1.jpeg",
+      console: "images/gen7/nds.jpeg",
       games: [
-        "images/console_7_1_game_1.jpeg",
-        "images/console_7_1_game_2.jpeg",
-        "images/console_7_1_game_3.jpeg"
+        "images/gen7/nds_game1.jpeg",
+        "images/gen7/nds_game2.jpeg",
+        "images/gen7/nds_game3.jpeg"
       ]
     },
     {
-      console: "images/console_7_2.jpeg",
+      console: "images/gen7/xbox360.jpeg",
       games: [
-        "images/console_7_2_game_1.jpeg",
-        "images/console_7_2_game_2.jpeg",
-        "images/console_7_2_game_3.jpeg"
+        "images/gen7/xbox360_game1.jpeg",
+        "images/gen7/xbox360_game2.jpeg",
+        "images/gen7/xbox360_game3.jpeg"
       ]
     },
     {
-      console: "images/console_7_3.jpeg",
+      console: "images/gen7/wii.jpeg",
       games: [
-        "images/console_7_3_game_1.jpeg",
-        "images/console_7_3_game_2.jpeg",
-        "images/console_7_3_game_3.jpeg"
+        "images/gen7/wii_game1.jpeg",
+        "images/gen7/wii_game2.jpeg",
+        "images/gen7/wii_game3.jpeg"
       ]
     },
     {
-      console: "images/console_7_4.jpeg",
+      console: "images/gen7/ps3.jpeg",
       games: [
-        "images/console_7_4_game_1.jpeg",
-        "images/console_7_4_game_2.jpeg",
-        "images/console_7_4_game_3.jpeg"
+        "images/gen7/ps3_game1.jpeg",
+        "images/gen7/ps3_game2.jpeg",
+        "images/gen7/ps3_game3.jpeg"
       ]
     },
     {
-      console: "images/console_7_5.jpeg",
+      console: "images/gen7/n3ds.jpeg",
       games: [
-        "images/console_7_5_game_1.jpeg",
-        "images/console_7_5_game_2.jpeg",
-        "images/console_7_5_game_3.jpeg"
+        "images/gen7/n3ds_game1.jpeg",
+        "images/gen7/n3ds_game2.jpeg",
+        "images/gen7/n3ds_game3.jpeg"
       ]
     }
   ];

@@ -7,72 +7,97 @@
 
   // Paragraph text for scrolly
   const steps = [
-    `<h1 class='step-title'>Fourth Generation</h1>
+    `<h1 class='step-title'> Sixth Generation </h1>
       <p>
-       The fourth generation of consoles marked significant advancements in gaming. Key consoles in this era include:
-       <ul>
-         <li class="tooltip" data-title="Sega Genesis/Mega Drive" data-img="/images/console_4_1.jpeg">
-           Sega Genesis/Mega Drive
-         </li>
-         <li class="tooltip" data-title="SNES/Super Famicom" data-img="/images/console_4_2.jpeg">
-           SNES/Super Famicom
-         </li>
-         <li class="tooltip" data-title="Atari Lynx" data-img="/images/console_4_3.jpeg">
-           Atari Lynx
-         </li>
-         <li class="tooltip" data-title="PC Engine/TurboGrafx-16" data-img="/images/console_4_4.jpeg">
-           PC Engine/TurboGrafx-16
-         </li>
-         <li class="tooltip" data-title="PC Engine CD-ROM" data-img="/images/console_4_5.jpeg">
-           PC Engine CD-ROM
-         </li>
-         <li class="tooltip" data-title="Philips CD-i" data-img="/images/console_4_6.jpeg">
-           Philips CD-i
-         </li>
-         <li class="tooltip" data-title="Sega Pico" data-img="/images/console_4_7.jpeg">
-           Sega Pico
-         </li>
-         <li class="tooltip" data-title="Sega Game Gear" data-img="/images/console_4_8.jpeg">
-           Sega Game Gear
-         </li>
-       </ul>
+        The 6th generation was full of utilization of internet in order for 
+        users to have a complete gaming experience. Consoles include:
+        <ul>
+          <li class="tooltip" data-title="Dreamcast" data-img="images/gen6/dreamcast.jpeg">
+            Dreamcast
+          </li>
+          <li class="tooltip" data-title="Wonderswan" data-img="images/gen6/wonderswan.jpeg">
+            Wonderswan
+          </li>
+          <li class="tooltip" data-title="PlayStation 2" data-img="images/gen6/ps2.jpeg">
+            PlayStation 2
+          </li>
+          <li class="tooltip" data-title="Gameboy Advance" data-img="images/gen6/gba.jpeg">
+            Gameboy Advance
+          </li>
+          <li class="tooltip" data-title="Gamecube" data-img="images/gen6/gamecube.jpeg">
+            Gamecube
+          </li>
+          <li class="tooltip" data-title="Xbox" data-img="images/gen6/xbox.jpeg">
+            Xbox
+          </li>
+          <li class="tooltip" data-title="N-gage" data-img="images/gen6/ngage.jpeg">
+            N-gage
+          </li>
+          <li class="tooltip" data-title="Playstation Portable" data-img="images/gen6/psp.jpeg">
+            Playstation Portable
+          </li>
+        </ul>
       </p>`,
-    `<h1 class='step-title'> Sega Genesis/Mega Drive </h1>
+    `<h1 class='step-title'> Dreamcast </h1>
       <p>
-        The Sega Genesis/Mega Drive as developed by Sega, and released in 1988 
-        to 1989. It had a library of more than 900 games based on its ROM 
-        cartridges. However, in Japan, it had poor market performance compared 
-        with its competitors, Super Favicom.
+        Dreamcast was developed by Sega and was released on November 27th, 1998. 
+        It was designed to reduce costs from cheaper hardware, and avoided DVDs 
+        as they were too expensive at the time. However, sales were not good as 
+        compated with Sony's PlayStation 2, hence its production came to a halt.
       </p>`,
-    `<h1 class='step-title'>SNES/Super Famicom</h1>
+    `<h1 class='step-title'> WonderSwan </h1>
       <p>
-        The SNES was developed by Nintendo and was released across 1990-1992. 
-        This console introduced advanced graphics and sound capabilities 
-        compared with other gaming consoles released at the same time period. 
-        It was the best selling console of the 16-bit era.
+        Wonderswan was developed by Bandai and was released on March 4th, 1999. 
+        This console took advantace of a low price point and battery life, and 
+        can be held both vertically and horizontally for games. It has a lot of 
+        unique games from licensed anime and third party supports as well.
       </p>`,
-    `<h1 class='step-title'>Atari Lynx</h1>
+    `<h1 class='step-title'> PlayStation 2 </h1>
       <p>
-        The Atari Lynx was developed by Atari and was released from 1989-1990. 
-        It featured the ability to be daisy-chained for up to 
-        8 players at once for unique multiplayer experiences. While Nintendo 
-        was clearly the most popular at the time, it still left a mark among 
-        the gamers at the time.
+        PlayStation 2 was developed by Sony Computer Entertainment and was 
+        released on March 4th, 2020. It is the best selling videogame console 
+        of all time, and continued to remain popular even after later 
+        generations are out, until Sony announced that it would be discontinued 
+        after its twelveth year of production.
       </p>`,
-    `<h1 class='step-title'>PC Engine/TurboGrafx-16</h1>
+    `<h1 class='step-title'> Gameboy Advance </h1>
       <p>
+        Gameboy Advance was developed by Nintendo and was released on March 
+        21st, 2001. It was developed because Nintendo felt the sales pressure 
+        from other competitors in the industry, and has a different feature of 
+        leaving the buttons on the sides of the device. 
       </p>`,
-    `<h1 class='step-title'>PC Engine CD-ROM</h1>
+    `<h1 class='step-title'> Gamecube </h1>
       <p>
+        The Gamecube was developed by Nintendo and was released on September 
+        14th, 2001. Nintendo developed this console in collaboration with ArtX 
+        to design a graphics processing unit. It is the first console that used 
+        Nintendo's own optical disks instead of using ROM. However, it was 
+        criticized for its lack for third party support.
       </p>`,
-    `<h1 class='step-title'>Philips CD-i</h1>
+    `<h1 class='step-title'> Xbox </h1>
       <p>
+        Xbox was developed by Microsoft and was released on November 15th, 
+        2001. It was the first console to feature a built-in hard disk, and is 
+        also one of the first which has Ethernet support. Moreover, the release 
+        of Xbox Live, a free online-gaming service, made it a strong candidate 
+        during this generation of consoles.
       </p>`,
-    `<h1 class='step-title'>Sega Pico</h1>
+    `<h1 class='step-title'> N-gage </h1>
       <p>
+        N-Gage was developed by Nokia and was released on October 7th, 2004. 
+        It was an attempt from Nokia to enter the gaming market, and they 
+        intended to lure gamers away by the additional functionality of the 
+        telephone functionalities. However, there were simply too many buttons 
+        on the device so it was a commercial failure.
       </p>`,
-    `<h1 class='step-title'>Sega Game Gear</h1>
+    `<h1 class='step-title'> PlayStation Portable </h1>
       <p>
+        PlayStation Portable was developed by Sony Computer Entertainment and 
+        was released on December 12th, 2004. The advanced graphics made this a 
+        popular mobile game choice, and also included many multimedia features. 
+        It was fairly popular among gamers until the last Japanese factory 
+        producing them closed in late 2016.
       </p>`
   ];
 
@@ -82,78 +107,78 @@
       console: null,
       games: null,
       consoles: [
-        "images/console_6_1.jpeg",
-        "images/console_6_2.jpeg",
-        "images/console_6_3.jpeg",
-        "images/console_6_4.jpeg",
-        "images/console_6_5.jpeg",
-        "images/console_6_6.jpeg",
-        "images/console_6_7.jpeg",
-        "images/console_6_8.jpeg"
+        "images/gen6/dreamcast.jpeg",
+        "images/gen6/wonderswan.jpeg",
+        "images/gen6/ps2.jpeg",
+        "images/gen6/gba.jpeg",
+        "images/gen6/gamecube.jpeg",
+        "images/gen6/xbox.jpeg",
+        "images/gen6/ngage.jpeg",
+        "images/gen6/psp.jpeg"
       ]
     },
     {
-      console: "images/console_6_1.jpeg",
+      console: "images/gen6/dreamcast.jpeg",
       games: [
-        "images/console_6_1_game_1.jpeg",
-        "images/console_6_1_game_2.jpeg",
-        "images/console_6_1_game_3.jpeg"
+        "images/gen6/dreamcast_game1.jpeg",
+        "images/gen6/dreamcast_game2.jpeg",
+        "images/gen6/dreamcast_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_2.jpeg",
+      console: "images/gen6/wonderswan.jpeg",
       games: [
-        "images/console_6_2_game_1.jpeg",
-        "images/console_6_2_game_2.jpeg",
-        "images/console_6_2_game_3.jpeg"
+        "images/gen6/wonderswan_game1.jpeg",
+        "images/gen6/wonderswan_game2.jpeg",
+        "images/gen6/wonderswan_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_3.jpeg",
+      console: "images/gen6/ps2.jpeg",
       games: [
-        "images/console_6_3_game_1.jpeg",
-        "images/console_6_3_game_2.jpeg",
-        "images/console_6_3_game_3.jpeg"
+        "images/gen6/ps2_game1.jpeg",
+        "images/gen6/ps2_game2.jpeg",
+        "images/gen6/ps2_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_4.jpeg",
+      console: "images/gen6/gba.jpeg",
       games: [
-        "images/console_6_4_game_1.jpeg",
-        "images/console_6_4_game_2.jpeg",
-        "images/console_6_4_game_3.jpeg"
+        "images/gen6/gba_game1.jpeg",
+        "images/gen6/gba_game2.jpeg",
+        "images/gen6/gba_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_5.jpeg",
+      console: "images/gen6/gamecube.jpeg",
       games: [
-        "images/console_6_5_game_1.jpeg",
-        "images/console_6_5_game_2.jpeg",
-        "images/console_6_5_game_3.jpeg"
+        "images/gen6/gamecube_game1.jpeg",
+        "images/gen6/gamecube_game2.jpeg",
+        "images/gen6/gamecube_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_6.jpeg",
+      console: "images/gen6/xbox.jpeg",
       games: [
-        "images/console_6_6_game_1.jpeg",
-        "images/console_6_6_game_2.jpeg",
-        "images/console_6_6_game_3.jpeg"
+        "images/gen6/xbox_game1.jpeg",
+        "images/gen6/xbox_game2.jpeg",
+        "images/gen6/xbox_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_7.jpeg",
+      console: "images/gen6/ngage.jpeg",
       games: [
-        "images/console_6_7_game_1.jpeg",
-        "images/console_6_7_game_2.jpeg",
-        "images/console_6_7_game_3.jpeg"
+        "images/gen6/ngage_game1.jpeg",
+        "images/gen6/ngage_game2.jpeg",
+        "images/gen6/ngage_game3.jpeg"
       ]
     },
     {
-      console: "images/console_8_8.jpeg",
+      console: "images/gen6/psp.jpeg",
       games: [
-        "images/console_6_8_game_1.jpeg",
-        "images/console_6_8_game_2.jpeg",
-        "images/console_6_8_game_3.jpeg"
+        "images/gen6/psp_game1.jpeg",
+        "images/gen6/psp_game2.jpeg",
+        "images/gen6/psp_game3.jpeg"
       ]
     }
 
@@ -176,9 +201,10 @@
   }
 </script>
 
-<h2 class="body-header">4th Generation: The Advancement of Console Gaming</h2>
+<h2 class="body-header"> 6th Generation: The Advancement of Console Gaming </h2>
 <p class="body-text">
-  The fourth generation of console gaming saw significant advancements and the introduction of iconic gaming systems.
+  The 6th generation was full of utilization of internet in order for users to 
+  have a complete gaming experience.
 </p>
 
 <section>
