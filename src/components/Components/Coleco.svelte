@@ -1,7 +1,7 @@
 <script>
-  export let title = "Nintendo";
-  export let imageUrl = "./images/nintendo.png";
-  export let description = "Nintendo is a Japanese multinational consumer electronics and video game company headquartered in Kyoto, Japan.";
+  export let title = "Coleco";
+  export let imageUrl = "/images/Coleco.png";
+  export let description = "Coleco is an American company founded in 1932 by Maurice Greenberg as the Connecticut Leather Company.";
 </script>
 
 <section class="company-introduction">

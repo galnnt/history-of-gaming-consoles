@@ -1,7 +1,7 @@
 <script>
-  export let title = "Nintendo";
-  export let imageUrl = "./images/nintendo.png";
-  export let description = "Nintendo is a Japanese multinational consumer electronics and video game company headquartered in Kyoto, Japan.";
+  export let title = "Atari";
+  export let imageUrl = "./images/Atari.png";
+  export let description = "Atari is an American video game developer and home computer company founded in 1972 by Nolan Bushnell and Ted Dabney.";
 </script>
 
 <section class="company-introduction">

@@ -1,7 +1,7 @@
 <script>
-  export let title = "Nintendo";
-  export let imageUrl = "./images/nintendo.png";
-  export let description = "Nintendo is a Japanese multinational consumer electronics and video game company headquartered in Kyoto, Japan.";
+  export let title = "Sega";
+  export let imageUrl = "./images/sega.png";
+  export let description = "Sega is a Japanese multinational video game and entertainment company headquartered in Shinagawa, Tokyo.";
 </script>
 
 <section class="company-introduction">

@@ -1,7 +1,7 @@
 <script>
-  export let title = "Nintendo";
-  export let imageUrl = "./images/nintendo.png";
-  export let description = "Nintendo is a Japanese multinational consumer electronics and video game company headquartered in Kyoto, Japan.";
+  export let title = "Magnavox";
+  export let imageUrl = "./images/Magnavox.png";
+  export let description = "Magnavox is an American electronics company founded in the United States by Edwin Pridham and Peter L. Jensen, who invented the moving-coil loudspeaker in 1915 at their lab in Napa, California.";
 </script>
 
 <section class="company-introduction">

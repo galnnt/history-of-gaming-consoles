@@ -1,11 +1,12 @@
 <section id="intro">
-  <h1 id="intro-hed">The Evolution of Video Game Consoles</h1>
+  <h1 id="intro-hed">Console War: The Evolution of Video Game Consoles</h1>
   <h2 class="intro-sub">A Journey Through the Generations</h2>
   <h3 id="intro__date">
-    <a href="https://twitter.com/" target="_blank">Author Name</a>, May 2024
+    <a href="https://twitter.com/" target="_blank">Chris Luo, Gallant Tsao</a>, May 2024
   </h3>
   <p class="intro-description">
-    Let's add some description here
+    Welcome to the interactive exploration of the history and evolution of video game consoles. 
+    This project provides a comprehensive timeline showcasing the development of video game consoles across different generations, highlighting the best-selling games and key milestones that have shaped the gaming industry. Through this visualization, you will gain insights into the innovations and trends that have driven the success of major manufacturers like Nintendo, Sony, Sega, and Microsoft. Dive in to discover the fascinating journey of gaming consoles from their inception to the present day.
   </p>
 </section>
 
