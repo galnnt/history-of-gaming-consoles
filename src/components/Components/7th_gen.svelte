@@ -28,17 +28,25 @@
          </li>
        </ul>
       </p>`,
-    `<h1 class='step-title'>Step 2</h1>
+    `<h1 class='step-title'> Nintendo DS </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        text
       </p>`,
-    `<h1 class='step-title'>Step 3</h1>
+    `<h1 class='step-title'> Nintendo 3DS </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        text
       </p>`,
-    `<h1 class='step-title'>Step 4</h1>
+    `<h1 class='step-title'> Xbox 360 </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        text
+      </p>`,
+      `<h1 class='step-title'> Playstation 3 </h1>
+      <p>
+        text
+      </p>`,
+      `<h1 class='step-title'> Wii </h1>
+      <p>
+        text
       </p>`
   ];
 

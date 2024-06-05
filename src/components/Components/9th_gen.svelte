@@ -19,13 +19,18 @@
          </li>
        </ul>
       </p>`,
-    `<h1 class='step-title'>Step 2</h1>
+    `<h1 class='step-title'> Playstation 5 </h1>
       <p>
-        
+        Playstation 5 was developed by Sony Interactive and was released on 
+        November 12th, 2020. It had the DualSense controlled with backwards 
+        compatibility with PS4 and integration with games that could be played 
+        via virtual reality.
       </p>`,
-    `<h1 class='step-title'>Step 3</h1>
+    `<h1 class='step-title'> Xbox Series X/S </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        The Xbox Series X/S/ was the fourth generation in the Xbox series, and 
+        was released on November 10th, 2020. The X/S series have more hardware 
+        improvements and is more emphasized on cross-generation releases.
       </p>`
   ];
 

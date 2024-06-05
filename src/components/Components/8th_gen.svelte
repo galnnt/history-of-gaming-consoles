@@ -28,17 +28,43 @@
          </li>
        </ul>
       </p>`,
-    `<h1 class='step-title'>Step 2</h1>
+    `<h1 class='step-title'> Nintendo Switch </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        The Nintendo Switch was developed by Nintendo and was released on March 
+        3rd, 2017. It is a tablet that can either be put onto a dock or used as 
+        a portable device, depending on the usage. It as very popular for its 
+        Joy-Con controllers to support local multiplayer game modes.
       </p>`,
-    `<h1 class='step-title'>Step 3</h1>
+    `<h1 class='step-title'> Playstation 4 </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        Playstation 4 was developed by Sony Computer Entertainment, and was 
+        released on November 15, 2013. It had included an AMD Accelerated 
+        Processing Unit, which they claimed was the "most powerful" APU they 
+        had at the time. This generation had an increasing emphasis on social 
+        interactino including remote play, etc.
       </p>`,
-    `<h1 class='step-title'>Step 4</h1>
+    `<h1 class='step-title'> Wii U </h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sint aut corrupti ullam neque quia labore laborum perspiciatis, molestias amet at, voluptatem ratione quaerat in sit minima reprehenderit molestiae, nobis sed. Earum facere exercitationem sit rerum, expedita magni nihil alias?
+        Wii U was developed by Nintendo and was released in late 2012. It 
+        included a gamepad and a screen. The screen could be used as the main 
+        display or as a supplement. One of the things that were criticized 
+        upon the release was the short span of the battery life, which was 
+        considered an important factor for the gaming experience.
+      </p>`,
+      `<h1 class='step-title'> Xbox One </h1>
+      <p>
+        Xbox one was developed by Microsoft and released during November 2013. 
+        From its last generation, it improve on motion tracking and voice 
+        recognition in its "Kinect" feature, adn put an increasing emphasis on 
+        cloud computing and social networking, including features like 
+        livestreaming and recording videoclips of games.
+      </p>`,
+      `<h1 class='step-title'> Playstation Vita </h1>
+      <p>
+        Playstation Vita was developed by Sony Computer Entertainment, and was 
+        released on December 11, 2011. It acted as a successor to Playstation 
+        Portable, to follow the ongoing trend of popular mobile games. It had a 
+        lot of support in JRPGs, visual novels, and indie games.
       </p>`
   ];
   // Define images for each step
