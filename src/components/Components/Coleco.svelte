@@ -1,6 +1,6 @@
 <script>
   export let title = "Coleco";
-  export let imageUrl = "/images/Coleco.png";
+  export let imageUrl = "images/Coleco.png";
   export let description = "Coleco is an American company founded in 1932 by Maurice Greenberg as the Connecticut Leather Company.";
 </script>
 
