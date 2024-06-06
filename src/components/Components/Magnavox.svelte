@@ -1,6 +1,6 @@
 <script>
   export let title = "Magnavox";
-  export let imageUrl = "./images/Magnavox.png";
+  export let imageUrl = "images/Magnavox.png";
   export let description = "Magnavox is an American electronics company founded in the United States by Edwin Pridham and Peter L. Jensen, who invented the moving-coil loudspeaker in 1915 at their lab in Napa, California.";
 </script>
 
