@@ -6,7 +6,7 @@
   import { axisBottom, axisLeft } from "d3-axis";
   import Atari from "./Atari.svelte";
   import Magnavox from "./Magnavox.svelte";
-  import Nintendo from "./Nintendo.svelte";
+  import Nintendo from "./nintendo.svelte";
 
   // Scroll iterator
   let value = 0;
