@@ -1,7 +1,7 @@
 <script>
     import Scrolly from "./Scrolly.svelte";
     import { select } from "d3-selection";
-    import Sega from "./sega.svelte";
+    import Sega from "./Sega.svelte";
 
     // Scroll iterator
     let value = 0;
