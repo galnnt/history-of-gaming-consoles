@@ -1,8 +1,14 @@
+<script>
+
+import Final_chart from "./final_chart.svelte"
+</script>
 <section id="conclusion">
-  <h1 class="body-header">Concluding Text - need to change the heading </h1>
-  <p class="body-text">
-   This part is edited in the concluding.svelte.
-  </p>
+  <h1 class="body-header">Conclusion </h1>
+  <Final_chart />
+
+  <h2 class="body-text">
+   Through generations of battle, now we have possibily reached the end of this long lasting war.
+  </h2>
 </section>
 
 <style>

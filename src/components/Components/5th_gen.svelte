@@ -1,7 +1,7 @@
 <script>
   import Scrolly from "./Scrolly.svelte";
   import { select } from "d3-selection";
-
+  import Sony from "./sony.svelte";
   // Scroll iterator
   let value = 0;
 
@@ -127,10 +127,8 @@
 
 
 
-<h2 class="body-header">Fifth Generation: Playstation Joins the Party</h2>
-<p class="body-text">
-  This is the fifth generation of gaming.
-</p>
+<h1 class="body-header">Fifth Generation: Playstation Joins the Party</h1>
+<Sony />
 <section>
   <!-- Scroll container -->
   <div class="section-container">

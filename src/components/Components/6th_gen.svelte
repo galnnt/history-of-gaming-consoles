@@ -1,6 +1,7 @@
 <script>
   import Scrolly from "./Scrolly.svelte";
   import { select } from "d3-selection";
+  import Microsoft from "./Microsoft.svelte";
 
   // Scroll iterator
   let value = 0;
@@ -201,11 +202,12 @@
   }
 </script>
 
-<h2 class="body-header"> 6th Generation: The Advancement of Console Gaming </h2>
+<h1 class="body-header"> 6th Generation: The Advancement of Console Gaming </h1>
 <p class="body-text">
   The 6th generation was full of utilization of internet in order for users to 
   have a complete gaming experience.
 </p>
+<Microsoft />
 
 <section>
   <!-- Scroll container -->

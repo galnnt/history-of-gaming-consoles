@@ -1,7 +1,8 @@
 <script>
   import Scrolly from "./Scrolly.svelte";
   import { select } from "d3-selection";
-
+  import Coleco from "./Coleco.svelte";
+  import Intellivision from "./Intellivision.svelte";
   // Scroll iterator
   let value = 0;
 
@@ -24,7 +25,7 @@
            ColecoVision
           </li>
           <li class="tooltip" data-title=">Atari 5200" data-img="images/gen2/a5200.jpeg">
-            ColecoVision
+            Atari 5200
           </li>
         </ul>
       </p>`,
@@ -139,10 +140,14 @@
   }
 </script>
 
-<h2 class="body-header">2nd Generation: The Rise of Home Gaming</h2>
-<p class="body-text">
-  This is the second generation of gaming consoles.
-</p>
+<h1 class="body-header">2nd Generation: The Rise of Home Gaming</h1>
+<h2 class="body-text">
+  As time progresses, more firms step into the game:
+</h2>
+<div class="company-container">
+  <Coleco />
+  <Intellivision />
+</div>
 <section>
   <!-- Scroll container -->
   <div class="section-container">
@@ -338,6 +343,23 @@
       margin: 0;
       font-size: 14px;
     }
+
+    .company-introduction {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    }
+
+    .company-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
   </style>
   
   {#if tooltipContent}

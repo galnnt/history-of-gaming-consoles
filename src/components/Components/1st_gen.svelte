@@ -1,10 +1,61 @@
 <script>
   import Scrolly from "./Scrolly.svelte";
+  import { onMount } from "svelte";
+  import { scaleBand, scaleLinear } from "d3-scale";
   import { select } from "d3-selection";
+  import { axisBottom, axisLeft } from "d3-axis";
+  import Atari from "./Atari.svelte";
+  import Magnavox from "./Magnavox.svelte";
+  import Nintendo from "./Nintendo.svelte";
 
   // Scroll iterator
   let value = 0;
 
+  const salesData = [
+    { company: "Nintendo", value: 3.00 },
+    { company: "Coleco", value: 1.00 },
+    { company: "Magnavox", value: 0.33 }
+  ];
+
+  const width = 500;
+  const height = 300;
+
+  onMount(() => {
+    drawBarChart();
+  });
+
+  // function drawBarChart() {
+  //   const svg = select("#bar-chart")
+  //     .attr("width", width)
+  //     .attr("height", height);
+
+  //   const x = scaleBand()
+  //     .domain(salesData.map(d => d.company))
+  //     .range([0, width])
+  //     .padding(0.1);
+
+  //   const y = scaleLinear()
+  //     .domain([0, Math.max(...salesData.map(d => d.value))])
+  //     .nice()
+  //     .range([height, 0]);
+
+  //   svg.append("g")
+  //     .selectAll("rect")
+  //     .data(salesData)
+  //     .enter().append("rect")
+  //     .attr("x", d => x(d.company))
+  //     .attr("y", d => y(d.value))
+  //     .attr("width", x.bandwidth())
+  //     .attr("height", d => height - y(d.value))
+  //     .attr("fill", "steelblue");
+
+  //   svg.append("g")
+  //     .attr("transform", `translate(0,${height})`)
+  //     .call(axisBottom(x));
+
+  //   svg.append("g")
+  //     .call(axisLeft(y));
+  // }
   // Paragraph text for scrolly
   $: steps = [
     `<h1 class='step-title'> First Generation: The Beginning of the Console Era </h1>
@@ -103,10 +154,18 @@
   }
 </script>
 
-<h2 class="body-header">1st Generation: The Beginning of the Console Era</h2>
-<p class="body-text">
-  This is the first generation of gaming generation
-</p>
+<h1 class="body-header">1st Generation: The Beginning of the Console Era</h1>
+<h3 class="large-body-text">
+  At the beginning It all started with a thought: "What if we add some interactivity in television?"
+   With that the first era of gaming console offcially begin in 1970s with three major players in this era.
+</h3>
+
+<div class="company-container">
+  <Nintendo />
+  <Atari />
+  <Magnavox />
+</div>
+
 <section>
   <!-- Scroll container -->
   <div class="section-container">
@@ -142,6 +201,11 @@
   </div>
   <br /><br />
 </section>
+
+<div class="chart-container">
+  <h3 class="sub-header">1st Generation Sales Comparison</h3>
+  <svg id="bar-chart"></svg>
+</div>
 
 {#if tooltipContent}
   <div class="tooltip-container">
@@ -240,7 +304,7 @@
     background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     color: #000;
     border-radius: 1px;
-    padding: 0.5rem 1rem;
+    padding    : 0.5rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -297,6 +361,22 @@
     margin: 10px;
     width: 30%;
   }
-</style>
 
+  .company-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+
+  .console-image,
+  .game-images,
+  .all-consoles {
+    margin-top: 20px;
+  }
+  svg {
+    display: block;
+    margin: 0 auto;
+  }
+</style>
 

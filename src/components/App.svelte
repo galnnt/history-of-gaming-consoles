@@ -21,13 +21,7 @@
   import NinthGen from "./Components/9th_gen.svelte"
   import Final_chart from "./Components/final_chart.svelte"
 
-  import Nintendo from "./Components/nintendo.svelte";
-  import Sony from "./Components/sony.svelte";
-  import Microsoft from "./Components/Microsoft.svelte";
-  import Sega from "./Components/Sega.svelte";
-  import Atari from "./Components/Atari.svelte";
-  import Coleco from "./Components/Coleco.svelte";
-  import Magnavox from "./Components/Magnavox.svelte";
+
 </script>
 
 
@@ -39,16 +33,12 @@ I have checked the code basically each subcode in components conmtrols one part.
 <Title /> 
 
 <!-- 1st gen , we can have a side scroll on each section-->
-<Magnavox />
-<Nintendo />
-<Atari />
 
 
 <FirstGen />
 
 <!-- 2nd gen -->
 
-<Coleco />
 <SecondGen />
 
 <!-- 3rd gen -->
@@ -74,16 +64,11 @@ I have checked the code basically each subcode in components conmtrols one part.
 <NinthGen />
 
 <!-- Test -->
-<Sony />
-<Microsoft />
-
-<Sega />
-
 
 <!-- <ScrollonLeftSide /> 
 <Scrollonright /> <I made this copy, we can use more here and there. -->
-<!-- <LineChart /> --> 
-<Final_chart />
+<!-- <LineChart /> -->
+<Conclusion /> 
 
 
 <!-- <Conclusion /> -->

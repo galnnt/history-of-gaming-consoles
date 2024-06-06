@@ -1,7 +1,8 @@
 <script>
     import Scrolly from "./Scrolly.svelte";
     import { select } from "d3-selection";
-  
+    import Sega from "./sega.svelte";
+
     // Scroll iterator
     let value = 0;
   
@@ -143,11 +144,12 @@
       tooltipImage = "";
     }
   </script>
-  
-  <h2 class="body-header">3rd Generation: The Advancement of the Console Era</h2>
+  <h1 class="body-header">3rd Generation: The Advancement of the Console Era</h1>
   <p class="body-text">
     This is the third generation of gaming consoles.
+    
   </p>
+  <Sega />
   <section>
     <!-- Scroll container -->
     <div class="section-container">

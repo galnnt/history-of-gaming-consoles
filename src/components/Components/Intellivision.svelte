@@ -1,7 +1,7 @@
 <script>
-  export let title = "Atari";
-  export let imageUrl = "images/Atari.png";
-  export let description = "Atari is an American video game developer and home computer company founded in 1972 by Nolan Bushnell and Ted Dabney.";
+  export let title = "Intellivision";
+  export let imageUrl = "images/intellivision.png";
+  export let description = "Intellivision is a home video game console released by Mattel in 1979. It was the first 16-bit game console and introduced a number of advanced features for its time.";
 </script>
 
 <section class="company-introduction">
