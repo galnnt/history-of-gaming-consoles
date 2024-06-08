@@ -22,6 +22,8 @@
   import Final_chart from "./Components/final_chart.svelte";
   import HUD from "./HUD.svelte";
 
+  import {Tooltip, Button} from "flowbite-svelte";
+
   let activeSection = 0;
 
   const sections = [
@@ -60,8 +62,16 @@
   });
 </script>
 
+
 <Meta />
 <Title />
+
+<Button>
+  Click me
+</Button>
+<Tooltip>
+  This is a button.
+</Tooltip>
 
 <!-- Add the HUD component -->
 <HUD {sections} bind:activeSection />
