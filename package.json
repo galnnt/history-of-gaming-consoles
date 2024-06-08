@@ -19,11 +19,18 @@
   },
   "type": "module",
   "dependencies": {
+    "@egjs/svelte-infinitegrid": "^4.11.1",
+    "@svelteuidev/composables": "^0.15.6",
+    "@svelteuidev/core": "^0.15.6",
+    "@svelteuidev/dates": "^0.15.6",
+    "@svelteuidev/motion": "^0.15.6",
     "autoprefixer": "^10.4.19",
     "d3": "^7.9.0",
     "d3-scale-chromatic": "^3.1.0",
+    "dayjs": "^1.11.11",
     "flowbite": "^2.3.0",
     "flowbite-svelte": "^0.46.1",
-    "katex": "^0.16.10"
+    "katex": "^0.16.10",
+    "pancake": "^3.4.1"
   }
 }

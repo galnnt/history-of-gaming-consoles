@@ -1,6 +1,8 @@
 <script>
   export let sections = [];
   export let activeSection = 0;
+  import { Ripple } from 'svelte-mui';
+
 
   function scrollToSection(index) {
     const element = document.getElementById(`section-${index}`);
@@ -23,6 +25,9 @@
     font-family: Arial, sans-serif;
     z-index: 1000;
   }
+  .hud :global(.Ripple) {
+        border-radius: 0 !important;
+    }
 
   .section {
     margin: 0.5rem 0;

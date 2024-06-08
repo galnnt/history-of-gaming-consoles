@@ -1,25 +1,21 @@
 <section id="resources">
-  <h3 class="body-header">References + Open Source</h3>
+  <h3 class="body-header">References</h3>
   <p class="body-text">
     This article is a product of the following resources:
     <br /><br />
   </p>
   <div class="resource-list">
     <p class="resource-item">
-      <a class="on-end" href="https://d3js.org/">D3.js</a>
-      <span>(Mike Bostock & Philippe Rivière)</span>
+      <a class="on-end" href="https://www.kaggle.com/datasets/tayyarhussain/best-selling-consoles-and-their-best-selling-games">Best-Selling Consoles and Their Best-Selling Games</a>
+      <span>(TAYYAR HUSSAIN)</span>
     </p>
     <p class="resource-item">
-      <a class="on-end" href="https://layercake.graphics/">LayerCake</a>
-      <span>(Michael Keller)</span>
+      <a class="on-end" href="https://liretro.com/console-timeline/">THE GAMING CONSOLE TIMELINE</a>
+      <span>(Long Island Retro Gaming)</span>
     </p>
     <p class="resource-item">
-      <a class="on-end" href="https://katex.org/">KaTeX</a>
-      <span>(Emily Eisenberg & Sophie Alpert)</span>
-    </p>
-    <p class="resource-item">
-      <a class="on-end" href="https://svelte.dev/">Svelte</a>
-      <span>(Rich Harris)</span>
+      <a class="on-end" href="https://www.ft.com/content/5b385502-47ac-48a7-9c30-cd044d5488bd">Sony and Nintendo left to battle in console wars as Microsoft signals exit</a>
+      <span>(Leo Lewis & David Keohane)</span>
     </p>
   </div>
 </section>
@@ -27,8 +23,8 @@
 <style>
   #resources {
     padding: 2rem 1rem;
-    background-color: var(--primary);
-    color: white;
+    background-color: #7092be ; /* Matching blue color */
+    color: #ffffff; /* Text color for better readability on blue background */
   }
 
   .resource-list {
@@ -45,7 +41,7 @@
 
   a.on-end {
     text-decoration: underline;
-    color: #f1f3f3;
+    color: #ffffff; /* Link color for better readability on blue background */
   }
 
   @media screen and (max-width: 950px) {

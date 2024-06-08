@@ -19,13 +19,14 @@
   import SeventhGen from "./Components/7th_gen.svelte";
   import EighthGen from "./Components/8th_gen.svelte";
   import NinthGen from "./Components/9th_gen.svelte";
-  import Final_chart from "./Components/final_chart.svelte";
+  import Event_1 from "./Components/event_pong.svelte";
   import HUD from "./HUD.svelte";
-
-
+  import { Sidepanel } from 'svelte-mui';
   import {Button, Checkbox } from 'svelte-mui';
+
+  let items = [];
+  let rightVisible = false;
   let activeSection = 0;
-  let checked = true;
   
   const sections = [
     "First Generation",
@@ -62,27 +63,26 @@
     });
   });
 </script>
+``
 
-<Checkbox bind:checked>Checkbox</Checkbox>
+<!-- <HUD_button />
+<Sidepanel right bind:visible={rightVisible}>
+  <div class="logo" style="padding-left: 1rem;">Help</div>
+  <p>
+    <i style="padding: 12px;">Blank</i>
+  </p>
+  <HUD {sections} bind:activeSection />
+</Sidepanel> -->
 
-<p>Checkbox is <strong>{checked ? 'checked' : 'unchecked'}</strong></p>
-
-<Button
-    outlined
-    shaped
-    color="Red"
-    on:click={() => { checked = !checked }}
->
-    Inverse
-</Button>
 
 <Meta />
 <Title />
-
+<Event_1 />
 
 
 <!-- Add the HUD component -->
 <HUD {sections} bind:activeSection />
+
 
 <!-- Sections -->
 <div id="section-0" class="section"><FirstGen /></div>
@@ -95,8 +95,9 @@
 <div id="section-7" class="section"><EighthGen /></div>
 <div id="section-8" class="section"><NinthGen /></div>
 <div id="section-9" class="section"><Conclusion /></div>
-
 <References />
+
+
 <style>
   .section {
     scroll-margin-top: 20px; /* Adjust if necessary to account for fixed header */

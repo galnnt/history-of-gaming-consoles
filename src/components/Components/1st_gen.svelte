@@ -20,43 +20,7 @@
   const width = 500;
   const height = 300;
 
-  onMount(() => {
-    drawBarChart();
-  });
 
-  // function drawBarChart() {
-  //   const svg = select("#bar-chart")
-  //     .attr("width", width)
-  //     .attr("height", height);
-
-  //   const x = scaleBand()
-  //     .domain(salesData.map(d => d.company))
-  //     .range([0, width])
-  //     .padding(0.1);
-
-  //   const y = scaleLinear()
-  //     .domain([0, Math.max(...salesData.map(d => d.value))])
-  //     .nice()
-  //     .range([height, 0]);
-
-  //   svg.append("g")
-  //     .selectAll("rect")
-  //     .data(salesData)
-  //     .enter().append("rect")
-  //     .attr("x", d => x(d.company))
-  //     .attr("y", d => y(d.value))
-  //     .attr("width", x.bandwidth())
-  //     .attr("height", d => height - y(d.value))
-  //     .attr("fill", "steelblue");
-
-  //   svg.append("g")
-  //     .attr("transform", `translate(0,${height})`)
-  //     .call(axisBottom(x));
-
-  //   svg.append("g")
-  //     .call(axisLeft(y));
-  // }
-  // Paragraph text for scrolly
   $: steps = [
     `<h1 class='step-title'> First Generation: The Beginning of the Console Era </h1>
       <p>
@@ -202,10 +166,6 @@
   <br /><br />
 </section>
 
-<div class="chart-container">
-  <h3 class="sub-header">1st Generation Sales Comparison</h3>
-  <svg id="bar-chart"></svg>
-</div>
 
 {#if tooltipContent}
   <div class="tooltip-container">

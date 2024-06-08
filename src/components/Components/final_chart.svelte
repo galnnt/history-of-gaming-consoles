@@ -156,32 +156,25 @@
   $: updateData(generation);
 </script>
 
-
-
 <div id="chart-container">
+  <h2 class="chart-title">Market Share for Each Generation</h2>
   <div class="slider-container">
     <label for="generation-slider">Generation: {generation}</label>
     <input id="generation-slider" type="range" min="1" max="9" bind:value={generation} />
   </div>
   <svg id="pie-chart"></svg>
-  <div id="tooltip" style="position: absolute; opacity: 0; background: #fff; padding: 5px; border: 1px solid #ccc; border-radius: 5px; pointer-events: none;"></div>
+  <div id="tooltip"></div>
+  <div class="legend">
+    {#each data as { company, value, console }}
+      <div class="legend-item">
+        <div class="legend-color" style="background-color: {color(company)};"></div>
+        <div class="legend-text">{company}</div>
+      </div>
+    {/each}
+  </div>
 </div>
 
 <style>
-  @media screen and (max-width: 950px) {
-    #intro-hed {
-      font-size: 2.5rem;
-    }
-
-    .intro-sub {
-      font-size: 1.4rem;
-    }
-
-    .intro-description {
-      font-size: 1rem;
-    }
-  }
-
   #chart-container {
     position: relative;
     display: flex;
@@ -189,39 +182,73 @@
     align-items: center;
     margin: 2rem auto;
     padding: 2rem;
-    background-color: #f5f5f5;
+    background-color: transparent; /* Make background transparent */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-20px); /* Move the entire container up by 20px */
+  }
+
+  .chart-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    transform: translateY(-20px); /* Move the title up by 20px */
   }
 
   .slider-container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     margin-bottom: 1rem;
+    transform: translateY(-20px); /* Move the slider up by 20px */
   }
 
-  input[type="range"] {
+  .slider-container label {
+    margin-right: 1rem;
+  }
+
+  #generation-slider {
+    width: 200px;
+  }
+
+  #pie-chart {
     width: 100%;
-    max-width: 500px;
-  }
-
-  svg {
-    max-width: 100%;
-    height: auto;
+    height: 500px;
+    transform: translateY(-20px); /* Move the pie chart up by 20px */
   }
 
   #tooltip {
     position: absolute;
-    opacity: 0;
-    background: #fff;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
     pointer-events: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    transform: translateY(-20px); /* Move the legend up by 20px */
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+  }
+
+  .legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+
+  .legend-text {
     font-size: 0.9rem;
-    color: #333;
   }
 </style>
-
