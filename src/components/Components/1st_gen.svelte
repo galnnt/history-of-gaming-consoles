@@ -7,6 +7,7 @@
   import Atari from "./Atari.svelte";
   import Magnavox from "./Magnavox.svelte";
   import Nintendo from "./nintendo.svelte";
+  import Event_1 from "./event_pong.svelte";
 
   // Scroll iterator
   let value = 0;
@@ -129,6 +130,8 @@
   <Atari />
   <Magnavox />
 </div>
+
+<Event_1 />
 
 <section>
   <!-- Scroll container -->

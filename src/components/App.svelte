@@ -19,7 +19,10 @@
   import SeventhGen from "./Components/7th_gen.svelte";
   import EighthGen from "./Components/8th_gen.svelte";
   import NinthGen from "./Components/9th_gen.svelte";
-  import Event_1 from "./Components/event_pong.svelte";
+  import Hook from "./Components/hook.svelte"
+
+
+
   import HUD from "./HUD.svelte";
   import { Sidepanel } from 'svelte-mui';
   import {Button, Checkbox } from 'svelte-mui';
@@ -75,10 +78,10 @@
 </Sidepanel> -->
 
 
+<Hook />
+
 <Meta />
 <Title />
-<Event_1 />
-
 
 <!-- Add the HUD component -->
 <HUD {sections} bind:activeSection />

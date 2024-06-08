@@ -1,7 +1,17 @@
 <script>
-  export let title = "Atari";
-  export let imageUrl = "images/Atari.png";
-  export let description = "Atari is an American video game developer and home computer company founded in 1972 by Nolan Bushnell and Ted Dabney.";
+  export let title = "The Videogame Crash of 1983";
+  export let imageUrl = "images/crash.jpeg";
+  export let description = `In 1983, a large-scale recession happened in the 
+  gaming console industry, known as the Videogame Crash of 1983. It happened 
+  mostly in the US, when too many games were released in the market in 1982. 
+  This caused many stores to have insufficient space for storing the games and 
+  the consoles themselves. As they tried to ask for refunds from the game 
+  producers, the publishers neither have cash nor new products for any refunds. 
+  This led to prices of games dropping dramatically. On top of that, people 
+  began preferring rushed games which are cheaper, rather than the more 
+  expensive games of high quality. The crash shrunk the console market by a lot, 
+  resulting in Magnavox exiting the industry, and Atari losing large amounts of 
+  money.`;
 </script>
 
 <section class="news-item">
