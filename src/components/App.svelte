@@ -22,10 +22,11 @@
   import Final_chart from "./Components/final_chart.svelte";
   import HUD from "./HUD.svelte";
 
-  import {Tooltip, Button} from "flowbite-svelte";
 
+  import {Button, Checkbox } from 'svelte-mui';
   let activeSection = 0;
-
+  let checked = true;
+  
   const sections = [
     "First Generation",
     "Second Generation",
@@ -62,16 +63,23 @@
   });
 </script>
 
+<Checkbox bind:checked>Checkbox</Checkbox>
+
+<p>Checkbox is <strong>{checked ? 'checked' : 'unchecked'}</strong></p>
+
+<Button
+    outlined
+    shaped
+    color="Red"
+    on:click={() => { checked = !checked }}
+>
+    Inverse
+</Button>
 
 <Meta />
 <Title />
 
-<Button>
-  Click me
-</Button>
-<Tooltip>
-  This is a button.
-</Tooltip>
+
 
 <!-- Add the HUD component -->
 <HUD {sections} bind:activeSection />
