@@ -1,6 +1,6 @@
 <script>
   export let title = "Xbox Live - First Gaming Central Hub";
-  export let imageUrl = "images/xboxblive.jpeg";
+  export let imageUrl = "images/xboxlive.jpeg";
   export let description = `When Microsoft was developing their project in Xbox, 
   one of the most important aspects that they focused on was the interactivity 
   via the internet with other players. They thought that large amounts of 
