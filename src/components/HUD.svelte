@@ -15,6 +15,13 @@
   function toggleHUD() {
     hudVisible = !hudVisible;
   }
+  function openYouTube() {
+    window.open('https://www.youtube.com/watch?v=IRpCJNeMXzU', '_blank');
+  }
+
+  function openRepo() {
+    window.open('https://github.com/galnnt/history-of-gaming-consoles', '_blank');
+  }
 </script>
 
 <!-- Toggle Button -->
@@ -22,6 +29,13 @@
   {hudVisible ? 'Close TOC' : 'Open TOC'}
 </button>
 
+<button class="toggle-button-2" on:click={openYouTube}>
+  Video Introduction
+</button>
+
+<button class="toggle-button-3" on:click={openRepo}>
+  Github Repo
+</button>
 
 <!-- HUD -->
 {#if hudVisible}
@@ -84,6 +98,39 @@
     transition: background-color 0.3s, transform 0.3s;
   }
 
+  .toggle-button-2 {
+    position: fixed;
+    top: 10px;
+    right: 140px;
+    z-index: 1001;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #d05c54;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .toggle-button-3 {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1001;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #808080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+  }
 
   .toggle-button:hover {
     background-color: #1565c0;
