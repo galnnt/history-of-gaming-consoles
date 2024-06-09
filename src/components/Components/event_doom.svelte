@@ -1,6 +1,6 @@
 <script>
   export let title = "Doom: The First FPS Game";
-  export let imageUrl = "images/doom.png";
+  export let imageUrl = "images/doom.jpeg";
   export let description = `Doom was developed by id Software, and was released 
   on December 10th, 1993. Unlike any other game at the time, Doom featured the 
   protagonist "Doomguy" in the first person perspective as the player traverses 
