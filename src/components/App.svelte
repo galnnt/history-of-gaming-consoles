@@ -20,6 +20,7 @@
   import EighthGen from "./Components/8th_gen.svelte";
   import NinthGen from "./Components/9th_gen.svelte";
   import Hook from "./Components/hook.svelte"
+  import Event_out from "./Components/event_xbox.svelte"
 
 
 
@@ -97,6 +98,7 @@
 <div id="section-6" class="section"><SeventhGen /></div>
 <div id="section-7" class="section"><EighthGen /></div>
 <div id="section-8" class="section"><NinthGen /></div>
+<Event_out />
 <div id="section-9" class="section"><Conclusion /></div>
 <References />
 

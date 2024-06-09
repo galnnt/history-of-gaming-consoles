@@ -1,7 +1,14 @@
 <script>
-  export let title = "Atari";
-  export let imageUrl = "images/Atari.png";
-  export let description = "Atari is an American video game developer and home computer company founded in 1972 by Nolan Bushnell and Ted Dabney.";
+  export let title = "Doom: The First FPS Game";
+  export let imageUrl = "images/doom.png";
+  export let description = `Doom was developed by id Software, and was released 
+  on December 10th, 1993. Unlike any other game at the time, Doom featured the 
+  protagonist "Doomguy" in the first person perspective as the player traverses 
+  through ordeals and defeating various enemies. The game type was so unique 
+  that people did not have a name for it at the time. For the first few years 
+  after release, people just simply called the gamemode "Doom+clones". It was 
+  not until around 1998 that the name FPS (First Person Shooting) game first 
+  emerged and superceded the name from Doom.`;
 </script>
 
 <section class="news-item">

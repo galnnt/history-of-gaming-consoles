@@ -2,6 +2,8 @@
   import Scrolly from "./Scrolly.svelte";
   import { select } from "d3-selection";
   import Microsoft from "./Microsoft.svelte";
+  import Event_4 from "./event_segaout.svelte";
+  import Event_5 from "./event_central.svelte";
 
   // Scroll iterator
   let value = 0;
@@ -208,6 +210,9 @@
   have a complete gaming experience.
 </p>
 <Microsoft />
+
+<Event_4 />
+<Event_5 />
 
 <section>
   <!-- Scroll container -->

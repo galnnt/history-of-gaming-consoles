@@ -1,7 +1,14 @@
 <script>
-  export let title = "Atari";
-  export let imageUrl = "images/Atari.png";
-  export let description = "Atari is an American video game developer and home computer company founded in 1972 by Nolan Bushnell and Ted Dabney.";
+  export let title = "Wii: First Backwards Compatible Device";
+  export let imageUrl = "images/back.jpeg";
+  export let description = `Before the Wii was released, there was no idea of 
+  "backwards compatibility": When a new device was acquired, everything was 
+  reset and gamers had to adapt to the new setting. The appearence of the Wii 
+  changed this completely. Wii consoles are able to be backwards compatible to 
+  the Nintendo Game Cube, meaning that plugging in the Gamecube memory card 
+  meant synchronizing every game progress from before. From here on, backwards 
+  compability will become basically a necessity for all of the future gaming 
+  consoles because of its convenience.`;
 </script>
 
 <section class="news-item">

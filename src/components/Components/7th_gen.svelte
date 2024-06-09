@@ -1,13 +1,14 @@
 <script>
   import Scrolly from "./Scrolly.svelte";
   import { select } from "d3-selection";
+  import Event_6 from "./event_back.svelte";
 
   // Scroll iterator
   let value = 0;
 
   // Paragraph text for scrolly
   $: steps = [
-    `<h1 class='step-title'>Seventh Generation</h1>
+    `<h1 class='step-title'> Seventh Generation </h1>
       <p>
        The seventh generation largely incorporated motion sensors for a more 
        interactive gaming experience. A lot of these gaming products have an 
@@ -145,10 +146,13 @@
   }
 </script>
 
-<h2 class="body-header">3rd Generation: The Advancement of the Console Era</h2>
+<h2 class="body-header"> Seventh Generation </h2>
 <p class="body-text">
-  This is the third generation of gaming consoles.
+  This is the seventh generation of gaming consoles.
 </p>
+
+<Event_6 />
+
 <section>
   <!-- Scroll container -->
   <div class="section-container">

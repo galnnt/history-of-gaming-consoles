@@ -22,6 +22,7 @@
   {hudVisible ? 'Close TOC' : 'Open TOC'}
 </button>
 
+
 <!-- HUD -->
 {#if hudVisible}
   <div class="hud">
@@ -82,6 +83,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s, transform 0.3s;
   }
+
 
   .toggle-button:hover {
     background-color: #1565c0;

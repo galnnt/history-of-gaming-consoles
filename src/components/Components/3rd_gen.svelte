@@ -2,6 +2,7 @@
     import Scrolly from "./Scrolly.svelte";
     import { select } from "d3-selection";
     import Sega from "./Sega.svelte";
+    import Event_2 from "./event_crash.svelte";
 
     // Scroll iterator
     let value = 0;
@@ -150,6 +151,9 @@
     
   </p>
   <Sega />
+
+  <Event_2 />
+
   <section>
     <!-- Scroll container -->
     <div class="section-container">

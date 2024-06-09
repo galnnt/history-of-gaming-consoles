@@ -10,7 +10,7 @@
     if (val === '') {
       message = 'Please enter the name of the console';
       error = '';
-    } else if (val !== 'PS2') {
+    } else if (val !== 'PS2' && val !== 'Playstation 2') {
       message = 'Incorrect! You will find the answer in this article';
       error = 'Incorrect! You will find the answer in this article';
     } else {

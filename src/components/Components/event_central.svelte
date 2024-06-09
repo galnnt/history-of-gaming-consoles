@@ -1,7 +1,15 @@
 <script>
-  export let title = "Atari";
-  export let imageUrl = "images/Atari.png";
-  export let description = "Atari is an American video game developer and home computer company founded in 1972 by Nolan Bushnell and Ted Dabney.";
+  export let title = "Xbox Live - First Gaming Central Hub";
+  export let imageUrl = "images/xboxblive.jpeg";
+  export let description = `When Microsoft was developing their project in Xbox, 
+  one of the most important aspects that they focused on was the interactivity 
+  via the internet with other players. They thought that large amounts of 
+  connections for the players meant that broadband connections are needed, and 
+  provided ethernet support for faster connections as well. This resulted in 
+  the release of XBOX LIVE in summer of 2022. This platform is the first gaming 
+  central hub where large amounts of gamers share and could interact with each 
+  other. This tactic proved to be a large success as Xbox had reached 2 million 
+  LIVE users by July 2005.`;
 </script>
 
 <section class="news-item">

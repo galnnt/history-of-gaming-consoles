@@ -2,6 +2,8 @@
   import Scrolly from "./Scrolly.svelte";
   import { select } from "d3-selection";
   import Sony from "./sony.svelte";
+  import Event_3 from "./event_doom.svelte";
+
   // Scroll iterator
   let value = 0;
 
@@ -123,9 +125,7 @@
   }
 </script>
 
-
-
-
+<Event_3 />
 
 <h1 class="body-header">Fifth Generation: Playstation Joins the Party</h1>
 <Sony />
